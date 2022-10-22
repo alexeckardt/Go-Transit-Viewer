@@ -44,6 +44,7 @@ public void drawGame() {
   translate(cam.pos.x, cam.pos.y);
 
   drawCities();
+  drawRoutes();
 
   popMatrix();
 }

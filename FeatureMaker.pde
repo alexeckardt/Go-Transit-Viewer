@@ -131,7 +131,7 @@ public class RouteEdgeMaker extends FeatureMaker {
       
       //Get Stops
       BusStop stopA = busstops.get(Node1id);
-      BusStop stopB = busstops.get(Node1id);
+      BusStop stopB = busstops.get(Node2id);
       
       //Create Route
       RouteEdge routeEdge = new RouteEdge(stopA, stopB, timeMinutes);
@@ -153,7 +153,8 @@ public class RouteMaker extends FeatureMaker {
   public void make() {
     
     //Create HashMap
-    routes = new ArrayList<>();
+    busRoutes = new ArrayList<>();
+    trainRoutes = new ArrayList<>();
     
     //Get Keys
     String[] keys = this.loader.getKeys();
@@ -177,9 +178,12 @@ public class RouteMaker extends FeatureMaker {
       String routeName = json.getString("route_long_name");
       int routeTypeInt = json.getInt("route_type");
       int route_color = hexStrToCol(json.getString("route_color"));
-      
+         
       //Converts
       RouteType route_type = intToRouteType(routeTypeInt);
+      if (route_type == RouteType.BUS) {
+         route_color = cBusRoute;
+      }
       
       //Create Class
       Route newRoute = new Route(routeId, routeName, routeShortName, route_color, route_type);
@@ -207,6 +211,13 @@ public class RouteMaker extends FeatureMaker {
       }
   
       //Store
+      ArrayList<Route> routes;
+      if (route_type == RouteType.TRAIN) {
+        routes = trainRoutes;
+      } else {
+        routes = busRoutes;
+      }
+      //
       routes.add(newRoute);
     }
     

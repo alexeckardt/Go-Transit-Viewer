@@ -28,6 +28,9 @@ final float busStopWidth = 4;
 
 final float routeEdgeBaseLineWidth = 2;
 
+final color cBusRoute = #113c1d;
+final float trainRouteWidthMulti = 1.25;
+
 //
 //
 public static class Searcher<T> {  
@@ -58,7 +61,7 @@ RouteType intToRouteType(int in) {
   switch (in) {
        default:
          return RouteType.NONE;
-       case 1:
+       case 3:
          return RouteType.BUS;
       case 2:
          return RouteType.TRAIN;

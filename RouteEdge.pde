@@ -15,17 +15,17 @@ public class RouteEdge {
   }
   
   //Draw
-  public void draw(color col) {
+  public void draw(color col, float wMulti) {
     
     Vector2 from = stopA.coord;
     Vector2 to = stopB.coord;
     
-    float lineWeight = min(routeEdgeBaseLineWidth, routeEdgeBaseLineWidth / cam.camScale);
+    float lineWeight = min(routeEdgeBaseLineWidth, routeEdgeBaseLineWidth / cam.camScale) * wMulti;
     
     //Draw
     strokeWeight(lineWeight);
     stroke(col);
-    noFill();
+    fill(col);
     line(from.x, from.y, to.x, to.y);
   }
 }
