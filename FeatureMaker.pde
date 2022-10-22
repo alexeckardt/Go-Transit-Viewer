@@ -106,6 +106,39 @@ public class RouteEdgeMaker extends FeatureMaker {
   
   //
   public void make() {
+    
+    //Create HashMap
+    routeEdges = new HashMap<>();
+    
+    //Get All Keys
+    String[] keys = this.loader.getKeys();
+    
+    //Load In Edges
+    while (!this.loader.isEmpty()) {
+      
+      //Load
+      PassBackFromLoad fromLoad = this.loader.pop();
+      JSONObject json = fromLoad.obj;
+      int i = fromLoad.i;
+      
+      //Get Route Edge Name
+      String routeEdgeName = keys[i];
+      
+      //Create And Set Object
+      String Node1id = json.getString("node1");
+      String Node2id = json.getString("node2");
+      float timeMinutes = json.getFloat("time_minutes");
+      
+      //Get Stops
+      BusStop stopA = busstops.get(Node1id);
+      BusStop stopB = busstops.get(Node1id);
+      
+      //Create Route
+      RouteEdge routeEdge = new RouteEdge(stopA, stopB, timeMinutes);
+
+      //Store
+      routeEdges.put(routeEdgeName, routeEdge);
+      
     }
     
   }
