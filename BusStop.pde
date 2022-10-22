@@ -115,6 +115,9 @@ void drawBusStops() {
   if (hoveringBusStopId != "None") {
     BusStop stop = busstops.get(hoveringBusStopId);
     stop.drawName();
+    
+    //Create Info Box
+    drawingInfoBox = new RouteListInfoBox(stop.name, stop.routesThatStopHere, cBusStop, cBusStop);
   }
 }
 

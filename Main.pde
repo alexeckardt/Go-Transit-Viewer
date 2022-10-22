@@ -57,4 +57,6 @@ public void drawGUI() {
   drawBusStops();
 
   drawCitiesName();
+  
+  drawInfoBox();
 }

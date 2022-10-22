@@ -24,9 +24,9 @@ public class Route {
 
     //
     if (this.type == RouteType.TRAIN) {
-      RouteWidthDrawMulti = trainRouteWidthMulti;
+      this.RouteWidthDrawMulti = trainRouteWidthMulti;
     } else {
-      RouteWidthDrawMulti = 1;
+      this.RouteWidthDrawMulti = 1;
     }
   }
 
@@ -38,8 +38,12 @@ public class Route {
   public void draw() {
     //Continue
     for (RouteEdge edge : edges) {
-      edge.draw(this.col, RouteWidthDrawMulti);
+      edge.draw(this.col, this.RouteWidthDrawMulti);
     }
+  }
+  
+  public String toString() {
+    return shortname + " : " + name;
   }
 }
 
