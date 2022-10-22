@@ -13,11 +13,12 @@ public class Camera {
 
   //
   //
-  public Camera(Vector2 baseCamDimentions) {
+  public Camera() {
 
     //Center Camera Position at (0,0)
-    pos = baseCamDimentions.scale(-1/2);
-
+    pos = new Vector2();
+    move(new Vector2(-139, 788));
+    
     //Decide Scales
     scaleIndex = 2; //index of scale 1
   }
@@ -31,6 +32,7 @@ public class Camera {
   //
   //Move Method
   public void move(Vector2 newPosition) {
+    print("Move:" + newPosition);
     pos = newPosition;
   }
 
@@ -111,8 +113,10 @@ public class Camera {
     textSize(fontSize);
     
     //
-    Vector2 pos = mouse_gui_to_real_coords();
-    text(pos.toString(), 5, 5);
+    Vector2 mpos = mouse_gui_to_real_coords();
+    text(mpos.toString(), 5, 5);
+    text(this.pos.toString(), 5, 15);
+    text(this.camScale, 5, 25);
     
     
   }

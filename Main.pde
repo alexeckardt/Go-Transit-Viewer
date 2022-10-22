@@ -13,7 +13,7 @@ void setup() {
   size(960, 540);
   baseCamDimentions = new Vector2(width, height);
 
-  cam = new Camera(baseCamDimentions);
+  cam = new Camera();
 
   loadFeatures();
 }
