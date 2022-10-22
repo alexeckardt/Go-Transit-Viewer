@@ -30,7 +30,7 @@ public class CityMaker extends FeatureMaker {
     while (!this.loader.isEmpty()) {
 
       //Load
-      JSONObject cityJson = this.loader.pop();
+      JSONObject cityJson = this.loader.pop().obj;
 
       //Get
       String name = cityJson.getString("name");
@@ -106,5 +106,7 @@ public class RouteEdgeMaker extends FeatureMaker {
   
   //
   public void make() {
+    }
+    
   }
 }
