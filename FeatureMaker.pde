@@ -95,3 +95,15 @@ public class BusStopMaker extends FeatureMaker {
     }
   }
 }
+
+public class RouteEdgeMaker extends FeatureMaker {
+
+  //
+  public RouteEdgeMaker(String fileName) {
+    this.loader = new JsonDictLoader(fileName);
+  }
+  
+  //
+  public void make() {
+  }
+}
