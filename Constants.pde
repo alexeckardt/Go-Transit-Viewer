@@ -29,7 +29,38 @@ final float busStopWidth = 4;
 final float routeEdgeBaseLineWidth = 2;
 
 //
+//
+public static class Searcher<T> {  
+  public boolean linear_search(ArrayList<T> in, T searching) {
+    for (T item : in) {
+       if (item == searching) {
+          return true; 
+       }
+    }
+    return false;
+  } 
+}
+
+
+
+//
 //Helper Functions
 public float clamp(float x, float a, float b) {
    return min(max(x, a), b); 
+}
+
+color hexStrToCol(String colstr) {
+  int c = Integer.parseInt(colstr, 16);
+  return color(red(c), green(c), blue(c));
+}
+
+RouteType intToRouteType(int in) {
+  switch (in) {
+       default:
+         return RouteType.NONE;
+       case 1:
+         return RouteType.BUS;
+      case 2:
+         return RouteType.TRAIN;
+    }
 }

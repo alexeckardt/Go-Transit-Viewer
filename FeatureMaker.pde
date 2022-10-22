@@ -138,8 +138,79 @@ public class RouteEdgeMaker extends FeatureMaker {
 
       //Store
       routeEdges.put(routeEdgeName, routeEdge);
+    }
+  }
+}
+
+public class RouteMaker extends FeatureMaker {
+
+  //
+  public RouteMaker(String fileName) {
+    this.loader = new JsonDictLoader(fileName);
+  }
+  
+  //
+  public void make() {
+    
+    //Create HashMap
+    routes = new ArrayList<>();
+    
+    //Get Keys
+    String[] keys = this.loader.getKeys();
+    
+    //Searhcer
+    Searcher search = new Searcher<Route>();
+    
+    //Load In Edges
+    while (!this.loader.isEmpty()) {
       
+      //Load
+      PassBackFromLoad fromLoad = this.loader.pop();
+      JSONObject json = fromLoad.obj;
+      int i = fromLoad.i;
+      
+      //Get Route Name
+      String routeShortName = keys[i];
+  
+      //Get Required
+      String routeId = json.getString("route_id");
+      String routeName = json.getString("route_long_name");
+      int routeTypeInt = json.getInt("route_type");
+      int route_color = hexStrToCol(json.getString("route_color"));
+      
+      //Converts
+      RouteType route_type = intToRouteType(routeTypeInt);
+      
+      //Create Class
+      Route newRoute = new Route(routeId, routeName, routeShortName, route_color, route_type);
+      
+      //
+     //Get Routes I Use
+      JSONArray edgesTravelArray = json.getJSONArray("edges_travel");
+      for (int j = 0; j < edgesTravelArray.size(); j++) {
+        
+        //Object
+        String edgeLookingAt = edgesTravelArray.getString(j);
+        
+        //Get Edge
+        RouteEdge edge = routeEdges.get(edgeLookingAt);
+        
+        //Add Route Edge to Route
+        newRoute.addEdge(edge);
+        
+        //Get Stops
+        BusStop stopA = edge.stopA;
+        BusStop stopB = edge.stopB;
+        
+        stopA.addRoute(search, newRoute);
+        stopB.addRoute(search, newRoute);
+      }
+  
+      //Store
+      routes.add(newRoute);
     }
     
+    //No Longer Need Route HashMap - Delete Unused Routes
+    routeEdges = null;
   }
 }

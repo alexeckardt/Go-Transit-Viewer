@@ -16,12 +16,16 @@ class BusStop {
   boolean drawName = false;
   boolean onAHighlightedEdge = false;
 
+  ArrayList<Route> routesThatStopHere;
+
   //Constructor
   BusStop(String inName, Vector2 inCoords) {
     name = inName;
     coord = inCoords;
     busStopId = "None";
     drawWidth = 5;
+    
+    routesThatStopHere = new ArrayList<>();
   }
 
   //
@@ -39,7 +43,6 @@ class BusStop {
 
     float sc = clamp(cam.camScale, 0.5, 1.5);
     drawWidth = int (busStopWidth * sc);
-    println(drawWidth);
   }
 
   //
@@ -88,6 +91,12 @@ class BusStop {
 
   public String toString() {
     return this.name;
+  }
+  
+  public void addRoute(Searcher search, Route route) {   
+    if (!search.linear_search(routesThatStopHere, route)) {
+      routesThatStopHere.add(route);
+    }
   }
 }
 
