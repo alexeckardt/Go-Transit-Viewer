@@ -26,6 +26,8 @@ final float baseTownRadius = 10;
 
 final float busStopWidth = 4;
 
+final float routeEdgeBaseLineWidth = 2;
+
 //
 //Helper Functions
 public float clamp(float x, float a, float b) {
