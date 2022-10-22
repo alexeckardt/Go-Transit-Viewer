@@ -1,3 +1,5 @@
+HashMap<String, RouteEdge> routeEdges;
+
 public class RouteEdge {
   
   public BusStop stopA;

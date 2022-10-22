@@ -1,5 +1,5 @@
 public interface JsonLoader {
-  public JSONObject pop();
+  public PassBackFromLoad pop();
   public boolean isEmpty();
   public String[] getKeys(); //only really for dictonary but alas
 }
@@ -22,8 +22,9 @@ public class JsonListLoader implements JsonLoader {
   }
 
   //
-  public JSONObject pop() {
-    return list.getJSONObject(i++);
+  public PassBackFromLoad pop() {
+    JSONObject obj = list.getJSONObject(i++);
+    return new PassBackFromLoad(obj, i-1);
   }
 
   //
@@ -54,9 +55,10 @@ public class JsonDictLoader implements JsonLoader {
   }
 
   //
-  public JSONObject pop() {
+  public PassBackFromLoad pop() {
     String keyGetting = keys[i++];
-    return json.getJSONObject(keyGetting);
+    JSONObject obj = json.getJSONObject(keyGetting);
+    return new PassBackFromLoad(obj, i-1);
   }
 
   //
@@ -66,5 +68,17 @@ public class JsonDictLoader implements JsonLoader {
 
   public String[] getKeys() {
     return keys;
+  }
+}
+
+public class PassBackFromLoad {
+ 
+  public JSONObject obj;
+  public int i;
+  
+  //Constructor
+  public PassBackFromLoad(JSONObject obj, int i) {
+      this.obj = obj;
+      this.i = i;
   }
 }

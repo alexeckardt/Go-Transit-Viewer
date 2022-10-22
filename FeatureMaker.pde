@@ -64,7 +64,6 @@ public class BusStopMaker extends FeatureMaker {
   public void make() {
 
     //keys
-    int i = 0;
     String[] keys = this.loader.getKeys();
     
     //Construct The Data Structure
@@ -75,8 +74,10 @@ public class BusStopMaker extends FeatureMaker {
     while (!this.loader.isEmpty()) {
 
       //Load
-      JSONObject busstopJson = this.loader.pop();
-
+      PassBackFromLoad fromLoad = this.loader.pop();
+      JSONObject busstopJson = fromLoad.obj;
+      int i = fromLoad.i;
+      
       //Unpack
       String name = busstopJson.getString("name");
       //Decide Coords
@@ -87,7 +88,7 @@ public class BusStopMaker extends FeatureMaker {
       BusStop newstop = new BusStop(name, coord);
 
       //Get Key
-      String stopkey = keys[i++];
+      String stopkey = keys[i];
       newstop.busStopId = stopkey;
       
       //Put

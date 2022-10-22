@@ -5,6 +5,7 @@ public void loadFeatures() {
    FeatureMaker[] makers = {
                                new CityMaker("final_cities.json"),
                                new BusStopMaker("stations.json"),
+                               new RouteEdgeMaker("route_edges.json"),
                            };
   
   //Loop Through Makers
