@@ -9,7 +9,7 @@ class BusStop {
   String name;
   String busStopId;
   Vector2 coord;
-  
+
   int drawWidth;
 
   //
@@ -36,7 +36,7 @@ class BusStop {
     if (hovering) {
       hoveringBusStopId = this.busStopId;
     }
-    
+
     float sc = clamp(cam.camScale, 0.5, 1.5);
     drawWidth = int (busStopWidth * sc);
     println(drawWidth);
@@ -47,7 +47,7 @@ class BusStop {
   void drawBusstop() {
 
     boolean glow = (onAHighlightedEdge || hoveringBusStopId == this.busStopId);
-    
+
     color c = (glow) ? cBusStop : cOffFocusBusStop;
     float size = (glow) ? drawWidth : drawWidth*0.75;
 
@@ -64,7 +64,7 @@ class BusStop {
   void drawName() {
 
     Vector2 guicoord = cam.coord_to_gui_coord(coord);
-    float visibleSize = busStopWidth * cam.camScale;
+    float visibleSize = drawWidth;
 
     textAlign(CENTER, BOTTOM);
     fill(cBusStop);
@@ -78,16 +78,16 @@ class BusStop {
     //
     Vector2 guiCoord = cam.coord_to_gui_coord(coord);
     Vector2 mouseCoords = new Vector2(mouseX, mouseY);
-    
+
     float w = drawWidth/2;
     boolean xin = guiCoord.x-w < mouseCoords.x && mouseCoords.x < guiCoord.x+w;
     boolean yin = guiCoord.y-w < mouseCoords.y && mouseCoords.y < guiCoord.y+w;
-    
+
     return xin && yin;
   }
-  
+
   public String toString() {
-     return this.name; 
+    return this.name;
   }
 }
 
@@ -101,12 +101,18 @@ void drawBusStops() {
     BusStop busstop = busstops.get(busstopId);
     busstop.drawBusstop();
   }
+
+  //Draw Name
+  if (hoveringBusStopId != "None") {
+    BusStop stop = busstops.get(hoveringBusStopId);
+    stop.drawName();
+  }
 }
 
 void stepBusStops() {
   //Draw
   hoveringBusStopId = "None";
-  
+
   for (String busstopId : stopShortcutNames) {
     //
     BusStop busstop = busstops.get(busstopId);
