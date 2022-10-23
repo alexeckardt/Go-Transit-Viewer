@@ -103,19 +103,24 @@ public void stepCities() {
       hoveringCityCoordsDistance = dist;
     }
   }
-  
-  //Draw Name
-  if (hoveringCity != null) {
-    
-    //Create Info Box
-    drawingInfoBox = new CityInfoBox(hoveringCity);
-  }
-  
+ 
   //Click
   if (mouseClick) {
     if (selectedBusStop == null) {
        selectedCity = hoveringCity;
     }
+  }
+
+  //
+  //Info Box
+  //
+
+  //Selected City
+  if (selectedCity != null) {
+    drawingInfoBox = new CityInfoBox(selectedCity);
+  }
+  if (hoveringCity != null) {
+    drawingInfoBox = new CityInfoBox(hoveringCity);
   }
 }
 
