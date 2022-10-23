@@ -24,14 +24,14 @@ final float populationScale = 5000;
 final float baseCityRadius = 15;
 final float baseTownRadius = 10;
 
-final float busStopWidth = 4;
+final float busStopWidth = 5;
 
 final float routeEdgeBaseLineWidth = 2;
 
 final color cBusRoute = #113c1d;
 final float trainRouteWidthMulti = 1.25;
 
-final color lakecol = #24494D;
+final color lakecol = #233b3f;
 final Vector2 lakeoffsetpos = new Vector2(20, 450);
 
 

@@ -41,8 +41,12 @@ class BusStop {
       hoveringBusStopId = this.busStopId;
     }
 
-    float sc = clamp(cam.camScale, 0.5, 1.5);
-    drawWidth = int (busStopWidth * sc);
+    if (cam.camScale >= 5) {
+      float sc = clamp(cam.camScale, 0.5, 1.5);
+      drawWidth = int (busStopWidth * sc);
+    } else {
+        drawWidth = (int) (3*min(1, cam.camScale));
+    };
   }
 
   //
