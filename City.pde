@@ -1,5 +1,5 @@
 public City hoveringCity = null;
-public City clickedCity = null;
+public City selectedCity = null;
 public ArrayList<City> cityList;
 
 public class City {
@@ -36,7 +36,7 @@ public class City {
   //
   public void draw() {
 
-    boolean selected = ((hoveringCity == this) || (clickedCity == this));
+    boolean selected = ((hoveringCity == this) || (selectedCity == this));
 
     color c = (selected) ? cityHighlightedCol : cityradCol;
     noStroke();
@@ -47,7 +47,7 @@ public class City {
   //GUI
   public void drawName() {
     
-    boolean selected = ((hoveringCity == this) || (clickedCity == this));
+    boolean selected = ((hoveringCity == this) || (selectedCity == this));
     float showValue = ((float) population / 3000.0);
     boolean shouldShow = showValue > 50/(cam.camScale*cam.camScale);
     
@@ -106,8 +106,16 @@ public void stepCities() {
   
   //Draw Name
   if (hoveringCity != null) {
+    
     //Create Info Box
     drawingInfoBox = new CityInfoBox(hoveringCity);
+  }
+  
+  //Click
+  if (mouseClick) {
+    if (selectedBusStop == null) {
+       selectedCity = hoveringCity;
+    }
   }
 }
 
@@ -118,6 +126,11 @@ public void drawCities() {
     //Get
     City city = cityList.get(i);
     city.draw();
+  }
+  
+  //Draw Over All other Cities
+  if (selectedCity != null) {
+     selectedCity.draw(); 
   }
   
   //Draw Over All other Cities

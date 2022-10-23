@@ -30,8 +30,10 @@ void draw() {
 }
 
 public void step() {
-  stepCities();
+  
   stepBusStops();
+  stepCities();
+
   
   mouseClick = false;
 }

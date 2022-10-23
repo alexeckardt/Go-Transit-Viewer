@@ -54,7 +54,7 @@ class BusStop {
   //Draw the Box (GUI)
   void drawBusstop() {
 
-    boolean glow = (onAHighlightedEdge || hoveringBusStopId == this.busStopId);
+    boolean glow = (onAHighlightedEdge || hoveringBusStopId == this.busStopId || selectedBusStop == this);
 
     color c = (glow) ? cBusStop : cOffFocusBusStop;
     float size = (glow) ? drawWidth : drawWidth*0.75;
