@@ -49,13 +49,29 @@ public class Route {
 
 //Draw
 public void drawRoutes() {
-  //Draw Bus Routes
-  for (Route route : busRoutes) {
-    route.draw();
-  }
+  
+  //Decide What To Show
 
-  //Draw Train Routes OVER Bus Routes
-  for (Route route : trainRoutes) {
-    route.draw();
+  if (selectedBusStop != null) {
+    ArrayList<Route> routesViewing = selectedBusStop.routesThatStopHere;
+    
+    //
+    for (Route route : routesViewing) {
+      route.draw();
+    }
+    //
+  } else {
+    
+    //Draw Bus Routes
+    for (Route route : busRoutes) {
+      route.draw();
+    }
+    //
+    //Draw Train Routes OVER Bus Routes
+    for (Route route : trainRoutes) {
+      route.draw();
+    }
   }
+  
+  
 }

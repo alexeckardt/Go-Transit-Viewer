@@ -2,6 +2,7 @@
 HashMap<String, BusStop> busstops;
 String[] stopShortcutNames;
 String hoveringBusStopId;
+BusStop selectedBusStop;
 
 //Setup Class
 class BusStop {
@@ -133,6 +134,14 @@ void stepBusStops() {
     //
     BusStop busstop = busstops.get(busstopId);
     busstop.step();
+  }
+  
+  if (mouseClick) {
+     if (hoveringBusStopId != "None") {
+         selectedBusStop = get_hoveringBusStop();
+     } else {
+         selectedBusStop = null;
+     }
   }
 }
 
