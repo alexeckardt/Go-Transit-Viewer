@@ -9,6 +9,7 @@ public class City {
   public int population;
   public float radius;
   public boolean isATown;
+  public Vector2 geoCoords;
 
   //Construct
   public City(String name, Vector2 coord) {
@@ -26,7 +27,8 @@ public class City {
     float base = (atown) ? baseTownRadius : baseCityRadius;
     
     //Decide Radius
-    float w = population / populationScale / 2;
+    float p = (float) Math.pow(population, 0.95);
+    float w = p / populationScale / 2;
     this.radius = base + w;
   }
 
@@ -46,17 +48,19 @@ public class City {
   public void drawName() {
     
     boolean selected = ((hoveringCity == this) || (clickedCity == this));
-    if (selected || !isATown) {
+    float showValue = ((float) population / 3000.0);
+    boolean shouldShow = showValue > 50/(cam.camScale*cam.camScale);
+    
+    if (selected || shouldShow) {
       
       //
       Vector2 guic = cam.coord_to_gui_coord(coord);
       color textc = (selected) ? cityHighlightedTextCol : cityTextCol;
           
-      textAlign(CENTER, BOTTOM);
+      textAlign(CENTER, CENTER);
       fill(textc);
       textSize(fontSize);
       text(name, guic.x, guic.y);
-    
     }
     
   }
@@ -98,6 +102,12 @@ public void stepCities() {
       hoveringCity = city;
       hoveringCityCoordsDistance = dist;
     }
+  }
+  
+  //Draw Name
+  if (hoveringCity != null) {
+    //Create Info Box
+    drawingInfoBox = new CityInfoBox(hoveringCity);
   }
 }
 

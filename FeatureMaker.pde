@@ -44,7 +44,9 @@ public class CityMaker extends FeatureMaker {
       //Store Infomation
       City newcity = new City(name, coord);
       newcity.setPopulation(population, istown);
-
+      newcity.geoCoords = new Vector2(cityJson.getJSONArray("coods"));
+    
+    
       println(newcity.toString());
 
       //Store In Struct

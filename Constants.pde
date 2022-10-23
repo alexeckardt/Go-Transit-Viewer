@@ -2,13 +2,13 @@
 //Constant Final Variables
 final color bkgcol = #202125;
 final float[] cameraScales = {0.25, 0.5, 1, 1.5, 2, 2.5, 3, 4, 5, 10, 20, 40, 80, 150, 250};
-final color cInfoboxColour = #3a3b3e;
+final color cInfoboxColour = #27282b;
 
 final color unhighlightedStateButtonCol = #3d4f3a;
 final color highlightedStateButtonCol = #5c7c56;
 
 final color cityradCol = #27282b;
-final color cityTextCol = #6a7083;
+final color cityTextCol = #9da6c2;
 final color cityHighlightedCol = #3a3c42;
 final color cityHighlightedTextCol = #ffffff;
 
