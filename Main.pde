@@ -42,8 +42,9 @@ public void drawGame() {
   pushMatrix();
   scale(cam.camScale);
   translate(cam.pos.x, cam.pos.y);
-
+  
   drawCities();
+  drawLakes();
   drawRoutes();
 
   popMatrix();

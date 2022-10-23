@@ -31,6 +31,10 @@ final float routeEdgeBaseLineWidth = 2;
 final color cBusRoute = #113c1d;
 final float trainRouteWidthMulti = 1.25;
 
+final color lakecol = #24494D;
+final Vector2 lakeoffsetpos = new Vector2(20, 450);
+
+
 //
 //
 public static class Searcher<T> {  
@@ -66,4 +70,8 @@ RouteType intToRouteType(int in) {
       case 2:
          return RouteType.TRAIN;
     }
+}
+
+Vector2 Mercador(Vector2 geo) {
+  return new Vector2(geo.x, log(abs((1 / (cos(geo.y)) + tan(geo.y))))); 
 }

@@ -7,6 +7,7 @@ public void loadFeatures() {
                                new BusStopMaker("stations.json"),
                                new RouteEdgeMaker("route_edges.json"),
                                new RouteMaker("route_info.json"),
+                               new LakeMaker("final_lakes.json"),
                            };
   
   //Loop Through Makers

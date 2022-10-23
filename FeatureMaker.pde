@@ -46,7 +46,6 @@ public class CityMaker extends FeatureMaker {
       newcity.setPopulation(population, istown);
 
       println(newcity.toString());
-      cam.center_at_pos(coord);
 
       //Store In Struct
       cityList.add(newcity);
@@ -65,11 +64,11 @@ public class BusStopMaker extends FeatureMaker {
 
     //keys
     String[] keys = this.loader.getKeys();
-    
+
     //Construct The Data Structure
     busstops = new HashMap<String, BusStop>();
     stopShortcutNames = keys;
-    
+
     //Load In Stops
     while (!this.loader.isEmpty()) {
 
@@ -77,7 +76,7 @@ public class BusStopMaker extends FeatureMaker {
       PassBackFromLoad fromLoad = this.loader.pop();
       JSONObject busstopJson = fromLoad.obj;
       int i = fromLoad.i;
-      
+
       //Unpack
       String name = busstopJson.getString("name");
       //Decide Coords
@@ -90,7 +89,7 @@ public class BusStopMaker extends FeatureMaker {
       //Get Key
       String stopkey = keys[i];
       newstop.busStopId = stopkey;
-      
+
       //Put
       busstops.put(stopkey, newstop);
     }
@@ -103,36 +102,36 @@ public class RouteEdgeMaker extends FeatureMaker {
   public RouteEdgeMaker(String fileName) {
     this.loader = new JsonDictLoader(fileName);
   }
-  
+
   //
   public void make() {
-    
+
     //Create HashMap
     routeEdges = new HashMap<>();
-    
+
     //Get All Keys
     String[] keys = this.loader.getKeys();
-    
+
     //Load In Edges
     while (!this.loader.isEmpty()) {
-      
+
       //Load
       PassBackFromLoad fromLoad = this.loader.pop();
       JSONObject json = fromLoad.obj;
       int i = fromLoad.i;
-      
+
       //Get Route Edge Name
       String routeEdgeName = keys[i];
-      
+
       //Create And Set Object
       String Node1id = json.getString("node1");
       String Node2id = json.getString("node2");
       float timeMinutes = json.getFloat("time_minutes");
-      
+
       //Get Stops
       BusStop stopA = busstops.get(Node1id);
       BusStop stopB = busstops.get(Node2id);
-      
+
       //Create Route
       RouteEdge routeEdge = new RouteEdge(stopA, stopB, timeMinutes);
 
@@ -148,68 +147,68 @@ public class RouteMaker extends FeatureMaker {
   public RouteMaker(String fileName) {
     this.loader = new JsonDictLoader(fileName);
   }
-  
+
   //
   public void make() {
-    
+
     //Create HashMap
     busRoutes = new ArrayList<>();
     trainRoutes = new ArrayList<>();
-    
+
     //Get Keys
     String[] keys = this.loader.getKeys();
-    
+
     //Searhcer
     Searcher search = new Searcher<Route>();
-    
+
     //Load In Edges
     while (!this.loader.isEmpty()) {
-      
+
       //Load
       PassBackFromLoad fromLoad = this.loader.pop();
       JSONObject json = fromLoad.obj;
       int i = fromLoad.i;
-      
+
       //Get Route Name
       String routeShortName = keys[i];
-  
+
       //Get Required
       String routeId = json.getString("route_id");
       String routeName = json.getString("route_long_name");
       int routeTypeInt = json.getInt("route_type");
       int route_color = hexStrToCol(json.getString("route_color"));
-         
+
       //Converts
       RouteType route_type = intToRouteType(routeTypeInt);
       if (route_type == RouteType.BUS) {
-         route_color = cBusRoute;
+        route_color = cBusRoute;
       }
-      
+
       //Create Class
       Route newRoute = new Route(routeId, routeName, routeShortName, route_color, route_type);
-      
+
       //
-     //Get Routes I Use
+      //Get Routes I Use
       JSONArray edgesTravelArray = json.getJSONArray("edges_travel");
       for (int j = 0; j < edgesTravelArray.size(); j++) {
-        
+
         //Object
         String edgeLookingAt = edgesTravelArray.getString(j);
-        
+
         //Get Edge
         RouteEdge edge = routeEdges.get(edgeLookingAt);
-        
+
         //Add Route Edge to Route
         newRoute.addEdge(edge);
-        
+
         //Get Stops
         BusStop stopA = edge.stopA;
         BusStop stopB = edge.stopB;
-        
+
         stopA.addRoute(search, newRoute);
         stopB.addRoute(search, newRoute);
       }
-  
+
       //Store
       ArrayList<Route> routes;
       if (route_type == RouteType.TRAIN) {
@@ -220,8 +219,56 @@ public class RouteMaker extends FeatureMaker {
       //
       routes.add(newRoute);
     }
-    
+
     //No Longer Need Route HashMap - Delete Unused Routes
     routeEdges = null;
+  }
+}
+
+public class LakeMaker extends FeatureMaker {
+
+  //
+  public LakeMaker(String fileName) {
+    this.loader = new JsonListLoader(fileName);
+  }
+
+  //
+  public void make() {
+
+    //Setup Object
+    lakes = new ArrayList<PShape>();
+
+    while (!this.loader.isEmpty()) {
+
+      //Load
+      JSONObject lakeJson = this.loader.pop().obj;
+
+      //Get
+      JSONArray coordPoints = lakeJson.getJSONArray("coods");
+      
+      PShape lake = createShape();
+      lake.beginShape();
+     
+      //Loop Through
+      for (int j = 0; j < coordPoints.size(); j++) {
+          JSONArray coordTuple = coordPoints.getJSONArray(j);
+          
+          //Decide Coordinate
+          Vector2 coord = new Vector2(coordTuple);
+          coord = badCoordConvert(coord);
+          
+          //Add to Shape
+          lake.vertex(coord.x, coord.y);
+      }
+      
+      //End
+      lake.endShape(CLOSE);
+      
+      lake.setStroke(lakecol);
+      lake.setFill(lakecol);
+      
+      //Add
+      lakes.add(lake);
+    }
   }
 }

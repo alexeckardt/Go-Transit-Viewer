@@ -32,7 +32,7 @@ public class Camera {
   //
   //Move Method
   public void move(Vector2 newPosition) {
-    print("Move:" + newPosition);
+    println("Move:" + newPosition);
     pos = newPosition;
   }
 
