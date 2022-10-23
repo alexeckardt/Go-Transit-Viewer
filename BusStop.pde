@@ -117,8 +117,15 @@ void drawBusStops() {
   }
 
   //Draw Name
-  if (hoveringBusStopId != "None") {
+  if (hoveringBusStopId != "None" || selectedBusStop != null) {
+  
+    //Get Stop
     BusStop stop = busstops.get(hoveringBusStopId);
+    if (stop == null) {
+       stop = selectedBusStop; 
+    }
+    
+    //Draw Name
     stop.drawName();
     
     //Create Info Box
@@ -146,6 +153,9 @@ void stepBusStops() {
 }
 
 BusStop get_hoveringBusStop() {
+  if (hoveringBusStopId == "None") {
+     return null; 
+  }
   return busstops.get(hoveringBusStopId);
 }
 
