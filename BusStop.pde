@@ -5,7 +5,7 @@ String hoveringBusStopId;
 BusStop selectedBusStop;
 
 //Setup Class
-class BusStop {
+class BusStop implements Feature {
 
   String name;
   String busStopId;
@@ -52,19 +52,21 @@ class BusStop {
 
   //
   //Draw the Box (GUI)
-  void drawBusstop() {
+  void draw() {
 
-    boolean glow = (onAHighlightedEdge || hoveringBusStopId == this.busStopId || selectedBusStop == this);
-
-    color c = (glow) ? cBusStop : cOffFocusBusStop;
-    float size = (glow) ? drawWidth : drawWidth*0.75;
-
-    //
-    Vector2 guiCoord = cam.coord_to_gui_coord(coord);
-
-    fill(c);
-    noStroke();
-    rect(guiCoord.x - size / 2, guiCoord.y - size / 2, size, size);
+    if (!offScreen()) {
+      boolean glow = (onAHighlightedEdge || hoveringBusStopId == this.busStopId || selectedBusStop == this);
+  
+      color c = (glow) ? cBusStop : cOffFocusBusStop;
+      float size = (glow) ? drawWidth : drawWidth*0.75;
+  
+      //
+      Vector2 guiCoord = cam.coord_to_gui_coord(coord);
+  
+      fill(c);
+      noStroke();
+      rect(guiCoord.x - size / 2, guiCoord.y - size / 2, size, size);
+    }
   }
 
   //
@@ -103,6 +105,17 @@ class BusStop {
       routesThatStopHere.add(route);
     }
   }
+  
+  public boolean offScreen() {
+   
+      Vector2 cp = cam.pos.scale(-1);
+
+      boolean xoutside = (coord.x + drawWidth < cp.x) || (coord.x - drawWidth >= cp.x+cam.viewPortSize.x);
+      boolean youtside = (coord.y + drawWidth < cp.y) || (coord.y - drawWidth >= cp.y+cam.viewPortSize.y);
+
+      return xoutside || youtside;
+    
+  }
 }
 
 //
@@ -113,7 +126,7 @@ void drawBusStops() {
   for (String busstopId : stopShortcutNames) {
     //
     BusStop busstop = busstops.get(busstopId);
-    busstop.drawBusstop();
+    busstop.draw();
   }
 
   //Draw Name

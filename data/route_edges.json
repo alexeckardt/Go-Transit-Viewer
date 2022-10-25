@@ -7,6 +7,22 @@
             "LE"
         ]
     },
+    "KI-SF": {
+        "node1": "KI",
+        "node2": "SF",
+        "time_minutes": 24,
+        "used_by": [
+            "KI"
+        ]
+    },
+    "SCTH-WR": {
+        "node1": "SCTH",
+        "node2": "WR",
+        "time_minutes": 24,
+        "used_by": [
+            "LW"
+        ]
+    },
     "DA-SC": {
         "node1": "DA",
         "node2": "SC",

@@ -2,14 +2,16 @@ public City hoveringCity = null;
 public City selectedCity = null;
 public ArrayList<City> cityList;
 
-public class City {
+public class City implements Feature {
   //
   public String name;
-  public Vector2 coord;
+  public Vector2 coord = new Vector2();
   public int population;
-  public float radius;
+  public float radius = 5;
   public boolean isATown;
   public Vector2 geoCoords;
+
+  public ArrayList<RouteEdge> edgesIPartIn;
 
   //Construct
   public City(String name, Vector2 coord) {
@@ -18,14 +20,17 @@ public class City {
     this.population = 0;
     this.radius = 5;
     this.isATown = false;
+
+    //
+    this.edgesIPartIn = new ArrayList<>();
   }
 
   public void setPopulation(int pop, boolean atown) {
     this.population = pop;
     this.isATown = atown;
-    
+
     float base = (atown) ? baseTownRadius : baseCityRadius;
-    
+
     //Decide Radius
     float p = (float) Math.pow(population, 0.95);
     float w = p / populationScale / 2;
@@ -36,33 +41,35 @@ public class City {
   //
   public void draw() {
 
-    boolean selected = ((hoveringCity == this) || (selectedCity == this));
+    boolean off = this.offScreen();
 
-    color c = (selected) ? cityHighlightedCol : cityradCol;
-    noStroke();
-    fill(c);
-    ellipse(coord.x, coord.y, radius, radius);
+    if (!off) {
+      boolean selected = ((hoveringCity == this) || (selectedCity == this));
+      color c = (selected) ? cityHighlightedCol : cityradCol;  
+      noStroke();
+      fill(c);
+      ellipse(coord.x, coord.y, radius, radius);
+    }
   }
-  
+
   //GUI
   public void drawName() {
-    
+
     boolean selected = ((hoveringCity == this) || (selectedCity == this));
     float showValue = ((float) population / 3000.0);
     boolean shouldShow = showValue > 50/(cam.camScale*cam.camScale);
-    
+
     if (selected || shouldShow) {
-      
+
       //
       Vector2 guic = cam.coord_to_gui_coord(coord);
       color textc = (selected) ? cityHighlightedTextCol : cityTextCol;
-          
+
       textAlign(CENTER, CENTER);
       fill(textc);
       textSize(fontSize);
       text(name, guic.x, guic.y);
     }
-    
   }
 
   public float coordsDistance(Vector2 testcoords) {
@@ -71,6 +78,16 @@ public class City {
 
   public String toString() {
     return this.name + "(" + this.isATown + ") :" + this.coord;
+  }
+
+  public boolean offScreen() {
+
+    Vector2 cp = cam.pos.scale(-1);
+
+    boolean xoutside = (coord.x + radius < cp.x) || (coord.x - radius >= cp.x+cam.viewPortSize.x);
+    boolean youtside = (coord.y + radius < cp.y) || (coord.y - radius >= cp.y+cam.viewPortSize.y);
+
+    return xoutside || youtside;
   }
 }
 
@@ -103,11 +120,11 @@ public void stepCities() {
       hoveringCityCoordsDistance = dist;
     }
   }
- 
+
   //Click
   if (mouseClick) {
     if (selectedBusStop == null) {
-       selectedCity = hoveringCity;
+      selectedCity = hoveringCity;
     }
   }
 
@@ -132,15 +149,15 @@ public void drawCities() {
     City city = cityList.get(i);
     city.draw();
   }
-  
+
   //Draw Over All other Cities
   if (selectedCity != null) {
-     selectedCity.draw(); 
+    selectedCity.draw();
   }
-  
+
   //Draw Over All other Cities
   if (hoveringCity != null) {
-     hoveringCity.draw(); 
+    hoveringCity.draw();
   }
 }
 
@@ -149,5 +166,5 @@ public void drawCitiesName() {
     //Get
     City city = cityList.get(i);
     city.drawName();
-  } 
+  }
 }

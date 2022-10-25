@@ -116,6 +116,7 @@
             "LO-MI",
             "MI-EX",
             "EX-UN",
+			"SCTH-WR",
             "NI-SCTH"
         ]
     },
@@ -185,6 +186,7 @@
             "AC-GL",
             "GL-KI",
             "SF-SM",
+			"KI-SF",
             "SM-LN"
         ]
     },

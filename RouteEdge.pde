@@ -1,21 +1,26 @@
 HashMap<String, RouteEdge> routeEdges;
 
-public class RouteEdge {
+public class RouteEdge implements Feature {
   
   public BusStop stopA;
   public BusStop stopB;
   
   public float averageTime;
+  public color col;
+  public float wMulti;
   
   //Constructor
   public RouteEdge(BusStop stopA, BusStop stopB, float time) {
     this.stopA = stopA;
     this.stopB = stopB;
     this.averageTime = time;
+    
+    this.col = #ffffff;
+    this.wMulti = 0f;
   }
   
   //Draw
-  public void draw(color col, float wMulti) {
+  public void draw() {
     
     Vector2 from = stopA.coord;
     Vector2 to = stopB.coord;
@@ -27,5 +32,9 @@ public class RouteEdge {
     stroke(col);
     fill(col);
     line(from.x, from.y, to.x, to.y);
+  }
+  
+  public boolean offScreen() {
+     return stopA.offScreen() && stopB.offScreen();
   }
 }

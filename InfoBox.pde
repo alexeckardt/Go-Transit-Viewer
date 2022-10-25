@@ -113,6 +113,7 @@ public class CityInfoBox implements InfoBox {
     
     //Add
     arr.add("Coordinates: " + new Vector2(targetCity.geoCoords.y,  targetCity.geoCoords.x));
+    arr.add("CoordinatesInternal: " + targetCity.coord);
     arr.add("Population: " + p);
     
     //Return

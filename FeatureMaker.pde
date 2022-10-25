@@ -238,7 +238,7 @@ public class LakeMaker extends FeatureMaker {
   public void make() {
 
     //Setup Object
-    lakes = new ArrayList<PShape>();
+    lakes = new ArrayList<Lake>();
 
     while (!this.loader.isEmpty()) {
 
@@ -247,27 +247,7 @@ public class LakeMaker extends FeatureMaker {
 
       //Get
       JSONArray coordPoints = lakeJson.getJSONArray("coods");
-      
-      PShape lake = createShape();
-      lake.beginShape();
-     
-      //Loop Through
-      for (int j = 0; j < coordPoints.size(); j++) {
-          JSONArray coordTuple = coordPoints.getJSONArray(j);
-          
-          //Decide Coordinate
-          Vector2 coord = new Vector2(coordTuple);
-          coord = badCoordConvert(coord);
-          
-          //Add to Shape
-          lake.vertex(coord.x, coord.y);
-      }
-      
-      //End
-      lake.endShape(CLOSE);
-      
-      lake.setStroke(lakecol);
-      lake.setFill(lakecol);
+      Lake lake = new Lake(coordPoints);
       
       //Add
       lakes.add(lake);

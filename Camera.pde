@@ -1,13 +1,13 @@
 public class Camera {
 
   //Positional
-  Vector2 pos;
+  Vector2 pos = new Vector2();
 
   //Scales
   float camScale = 1;
-
   int scaleIndex;
-
+  Vector2 viewPortSize = new Vector2();
+  
   //Other Positions
   Vector2 dragStartPosition;
 
@@ -21,6 +21,8 @@ public class Camera {
     
     //Decide Scales
     scaleIndex = 2; //index of scale 1
+    
+    viewPortSize = get_viewport_dimentions();
   }
 
   //
@@ -36,6 +38,7 @@ public class Camera {
     pos = newPosition;
   }
 
+  //
   public void center_at_pos(Vector2 center) {
     //Get Camera View Dimentions
     Vector2 viewport = this.get_viewport_dimentions();
@@ -45,10 +48,12 @@ public class Camera {
     this.move(offsetPos);
   }
   
+  //
   void move_by_drag() {
     Vector2 diff = new Vector2(mouseX, mouseY).scale(1/camScale);
     diff = diff.subtract(dragStartPosition);
   
+    //
     pos = diff;
   }
 
@@ -74,8 +79,8 @@ public class Camera {
     Vector2 scrollFromCoords = mouse_gui_to_real_coords();
 
     //Scale
-    scaleIndex += scaleIndexIncreaseBy;
-    scaleIndex = (int) clamp(scaleIndex, 0, cameraScales.length-1);
+    this.scaleIndex += scaleIndexIncreaseBy;
+    this.scaleIndex = (int) clamp(scaleIndex, 0, cameraScales.length-1);
 
     //Set Goal
     camScale = cameraScales[scaleIndex];
@@ -85,7 +90,10 @@ public class Camera {
 
     // Move To Make Scoll Happen from Mouse, Not 0,0 on screen
     Vector2 diff = updatedMouseCoords.subtract(scrollFromCoords);
-    pos = pos.add(diff);
+    this.pos = pos.add(diff);
+    
+    //Update
+    this.viewPortSize = baseCamDimentions.scale(1/this.camScale);
   }
 
   //
@@ -114,9 +122,10 @@ public class Camera {
     
     //
     Vector2 mpos = mouse_gui_to_real_coords();
-    text(mpos.toString(), 5, 5);
-    text(this.pos.toString(), 5, 15);
-    text(this.camScale, 5, 25);
+    text(mpos.toString(), 5, 155);
+    text(this.pos.toString(), 5, 165);
+    text(this.camScale, 5, 175);
+    text(this.viewPortSize.toString(), 5, 185);
     
     
   }

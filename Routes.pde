@@ -38,7 +38,9 @@ public class Route {
   public void draw() {
     //Continue
     for (RouteEdge edge : edges) {
-      edge.draw(this.col, this.RouteWidthDrawMulti);
+      edge.col = this.col;
+      edge.wMulti = this.RouteWidthDrawMulti;
+      edge.draw();
     }
   }
   
