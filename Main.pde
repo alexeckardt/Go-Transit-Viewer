@@ -31,10 +31,11 @@ void draw() {
 
 public void step() {
   
+  keyboardInput();
+  
   stepBusStops();
   stepCities();
 
-  
   mouseClick = false;
 }
 

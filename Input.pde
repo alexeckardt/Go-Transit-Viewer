@@ -9,15 +9,15 @@ void mousePressed()
 {
   //Camera
   cam.dragStartPosition = cam.mouse_gui_to_real_coords();
-  
+
   //Reset
   mouseDragging = false;
 }
 
 void mouseReleased() {
-    if (!mouseDragging) {
-      mouseClick = true; 
-    }
+  if (!mouseDragging) {
+    mouseClick = true;
+  }
 }
 
 void mouseDragged()
@@ -28,6 +28,19 @@ void mouseDragged()
 
 void mouseWheel(MouseEvent event) {
   int wheelDir = event.getCount()*(-1);
-  
+
   cam.update_scale(wheelDir);
+}
+
+void keyboardInput() {
+  if (keyPressed) {
+    if (key == 'h') {
+      if (!toggledDrawCityNames) {
+        drawCityNames = !drawCityNames;
+        toggledDrawCityNames = true;
+      }
+    }
+  } else {
+    toggledDrawCityNames = false;
+  }
 }

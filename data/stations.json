@@ -575,14 +575,6 @@
             43.6338043
         ]
     },
-    "08041": {
-        "name": "Bramalea GO Bus",
-        "index": 73,
-        "coords": [
-            -79.690021,
-            43.702137
-        ]
-    },
     "08039": {
         "name": "Regional Rd. 25 @ Hwy. 401 Park & Ride",
         "index": 74,
@@ -623,28 +615,12 @@
             43.505837
         ]
     },
-    "08024": {
-        "name": "Trafalgar Rd. @ Hwy. 407 Park & Ride",
-        "index": 79,
-        "coords": [
-            -79.745384,
-            43.506226
-        ]
-    },
     "08021": {
         "name": "Hwy. 2 @ Hwy. 35/115 Park & Ride",
         "index": 80,
         "coords": [
             -78.613016,
             43.912918
-        ]
-    },
-    "08002": {
-        "name": "Allandale Waterfront GO Bus",
-        "index": 83,
-        "coords": [
-            -79.689441,
-            44.373817
         ]
     },
     "02814": {
@@ -735,14 +711,6 @@
             43.474444
         ]
     },
-    "02799": {
-        "name": "University of Waterloo Terminal",
-        "index": 95,
-        "coords": [
-            -80.539507,
-            43.474393
-        ]
-    },
     "02798": {
         "name": "Brock St. @ Whitburn St.",
         "index": 96,
@@ -797,14 +765,6 @@
         "coords": [
             -79.8080835622808,
             43.5554510598521
-        ]
-    },
-    "02790": {
-        "name": "Derry Rd. @ Trafalgar Rd.",
-        "index": 103,
-        "coords": [
-            -79.8081483979709,
-            43.5550510528042
         ]
     },
     "02789": {
@@ -863,14 +823,6 @@
             43.475362
         ]
     },
-    "02782": {
-        "name": "Simcoe St. N. @ Windfields Farm Dr.",
-        "index": 111,
-        "coords": [
-            -78.902909,
-            43.963039
-        ]
-    },
     "02781": {
         "name": "Simcoe St. N. @ Britannia Ave.",
         "index": 112,
@@ -919,14 +871,6 @@
             43.8196889741776
         ]
     },
-    "02775": {
-        "name": "Port Credit GO",
-        "index": 118,
-        "coords": [
-            -79.587457,
-            43.555598
-        ]
-    },
     "02774": {
         "name": "Weber St. W. @ College St.",
         "index": 119,
@@ -967,14 +911,6 @@
             43.8445789374929
         ]
     },
-    "02767": {
-        "name": "Bloomington GO",
-        "index": 124,
-        "coords": [
-            -79.396884,
-            43.975523
-        ]
-    },
     "02766": {
         "name": "Trafalgar Rd. @ McCraney St. E.",
         "index": 125,
@@ -983,28 +919,12 @@
             43.466272
         ]
     },
-    "02765": {
-        "name": "Trafalgar Rd. @ Upper Middle Rd. E.",
-        "index": 126,
-        "coords": [
-            -79.701471,
-            43.474533
-        ]
-    },
     "02764": {
         "name": "Trafalgar Rd. @ River Oaks Blvd. E.",
         "index": 127,
         "coords": [
             -79.70504,
             43.47697
-        ]
-    },
-    "02763": {
-        "name": "Trafalgar Rd. @ Glenashton Dr.",
-        "index": 128,
-        "coords": [
-            -79.709384,
-            43.48015
         ]
     },
     "02761": {
@@ -1045,38 +965,6 @@
         "coords": [
             -79.330273,
             43.770562
-        ]
-    },
-    "02756": {
-        "name": "Consumers Rd. @ William Sylvester Dr.",
-        "index": 134,
-        "coords": [
-            -79.33023,
-            43.770398
-        ]
-    },
-    "02753": {
-        "name": "Cooksville GO Bus",
-        "index": 135,
-        "coords": [
-            -79.624506,
-            43.582296
-        ]
-    },
-    "02752": {
-        "name": "Cooksville GO Bus",
-        "index": 136,
-        "coords": [
-            -79.6245055812486,
-            43.5822961767171
-        ]
-    },
-    "02751": {
-        "name": "Cooksville GO Bus",
-        "index": 137,
-        "coords": [
-            -79.624506,
-            43.582296
         ]
     },
     "02750": {
@@ -1167,28 +1055,12 @@
             43.575505
         ]
     },
-    "02738": {
-        "name": "Rathburn Rd. W. @ Perivale Rd.",
-        "index": 149,
-        "coords": [
-            -79.664277,
-            43.575855
-        ]
-    },
     "02737": {
         "name": "Derry Rd. @ Sauve St.",
         "index": 150,
         "coords": [
             -79.842406,
             43.524441
-        ]
-    },
-    "02736": {
-        "name": "Derry Rd. @ Sauve St.",
-        "index": 151,
-        "coords": [
-            -79.842312,
-            43.523968
         ]
     },
     "02735": {
@@ -1207,28 +1079,12 @@
             43.957485
         ]
     },
-    "02733": {
-        "name": "Winchester Rd. @ Thickson Rd.",
-        "index": 154,
-        "coords": [
-            -78.943983,
-            43.957375
-        ]
-    },
     "02732": {
         "name": "Davis Dr. W. @ Eagle St. W.",
         "index": 155,
         "coords": [
             -79.485428,
             44.053908
-        ]
-    },
-    "02731": {
-        "name": "Davis Dr. W. @ Eagle St. W.",
-        "index": 156,
-        "coords": [
-            -79.485558,
-            44.053617
         ]
     },
     "02730": {
@@ -1245,14 +1101,6 @@
         "coords": [
             -79.444537,
             44.009295
-        ]
-    },
-    "02725": {
-        "name": "Bayview Ave. @ River Ridge Blvd.",
-        "index": 160,
-        "coords": [
-            -79.445043,
-            44.009748
         ]
     },
     "02722": {
@@ -1319,14 +1167,6 @@
             43.884898
         ]
     },
-    "02714": {
-        "name": "First Ave. @ Front St. Park & Ride",
-        "index": 169,
-        "coords": [
-            -78.854257,
-            43.885019
-        ]
-    },
     "02713": {
         "name": "Queen St. E. @ Centre St. S.",
         "index": 170,
@@ -1349,14 +1189,6 @@
         "coords": [
             -79.3803716525566,
             43.8827011632664
-        ]
-    },
-    "02710": {
-        "name": "Major Mackenzie Dr. E. @ Hwy. 404",
-        "index": 173,
-        "coords": [
-            -79.3804406287544,
-            43.8827741694863
         ]
     },
     "02709": {
@@ -1447,28 +1279,12 @@
             44.023461599752
         ]
     },
-    "02693": {
-        "name": "Bayview Ave. @ St. John's Sideroad",
-        "index": 185,
-        "coords": [
-            -79.4481818236578,
-            44.0237239494145
-        ]
-    },
     "02692": {
         "name": "Bayview Ave. @ Mulock Dr.",
         "index": 186,
         "coords": [
             -79.4517586529434,
             44.0410444955981
-        ]
-    },
-    "02691": {
-        "name": "Bayview Ave. @ Mulock Dr.",
-        "index": 187,
-        "coords": [
-            -79.4521589476021,
-            44.0414415652058
         ]
     },
     "02690": {
@@ -1479,14 +1295,6 @@
             44.0493428055643
         ]
     },
-    "02689": {
-        "name": "Prospect St. @ Pearson St.",
-        "index": 189,
-        "coords": [
-            -79.453040727793,
-            44.0496186238697
-        ]
-    },
     "02688": {
         "name": "Burton Ave. @ Granville St.",
         "index": 190,
@@ -1495,28 +1303,12 @@
             44.3716585556774
         ]
     },
-    "02687": {
-        "name": "Burton Ave. @ Granville St.",
-        "index": 191,
-        "coords": [
-            -79.6911595701255,
-            44.3716444485243
-        ]
-    },
     "02684": {
         "name": "Simcoe St. @ Britannia Ave.",
         "index": 192,
         "coords": [
             -78.8994952290358,
             43.9558385161942
-        ]
-    },
-    "02683": {
-        "name": "Green Lane E. @ Yonge St.",
-        "index": 193,
-        "coords": [
-            -79.481138,
-            44.073913
         ]
     },
     "02682": {
@@ -1567,28 +1359,12 @@
             43.8710634547294
         ]
     },
-    "02675": {
-        "name": "Dundas St. @ Halls Rd.",
-        "index": 200,
-        "coords": [
-            -78.981120567689,
-            43.8713052332062
-        ]
-    },
     "02674": {
         "name": "Hwy 407 Bus Terminal",
         "index": 201,
         "coords": [
             -79.5244458372792,
             43.7830713234851
-        ]
-    },
-    "02673": {
-        "name": "Hwy 407 Bus Terminal",
-        "index": 202,
-        "coords": [
-            -79.5232260682288,
-            43.7830465622674
         ]
     },
     "02672": {
@@ -1615,44 +1391,12 @@
             43.594225540709
         ]
     },
-    "02662": {
-        "name": "City Centre Dr. @ Robert Speck Pkwy.",
-        "index": 206,
-        "coords": [
-            -79.6397587842478,
-            43.5947480853453
-        ]
-    },
-    "02661": {
-        "name": "Renforth Transitway Station",
-        "index": 207,
-        "coords": [
-            -79.5911181123626,
-            43.662995090205
-        ]
-    },
-    "02660": {
-        "name": "Renforth Transitway Station",
-        "index": 208,
-        "coords": [
-            -79.591281189024,
-            43.6630754344014
-        ]
-    },
     "02659": {
         "name": "Dixie Transitway Station",
         "index": 209,
         "coords": [
             -79.6146254772841,
             43.6300128947218
-        ]
-    },
-    "02658": {
-        "name": "Dixie Transitway Station",
-        "index": 210,
-        "coords": [
-            -79.6146878930147,
-            43.6300478663032
         ]
     },
     "02655": {
@@ -1679,28 +1423,12 @@
             43.9218485290721
         ]
     },
-    "02652": {
-        "name": "West Harbour GO",
-        "index": 214,
-        "coords": [
-            -79.8659978056508,
-            43.2660685497468
-        ]
-    },
     "02651": {
         "name": "Military Trail. @ Pan Am Dr.",
         "index": 215,
         "coords": [
             -79.1904190458541,
             43.7877954094493
-        ]
-    },
-    "02650": {
-        "name": "Military Trail. @ Pan Am Dr.",
-        "index": 216,
-        "coords": [
-            -79.1908919809448,
-            43.7878560204119
         ]
     },
     "02647": {
@@ -1751,22 +1479,6 @@
             43.5417557
         ]
     },
-    "02635": {
-        "name": "Winston Churchill Transitway Station",
-        "index": 223,
-        "coords": [
-            -79.7131805,
-            43.5419006
-        ]
-    },
-    "02634": {
-        "name": "Davis Dr. @ Superior St. (Newmarket GO).",
-        "index": 224,
-        "coords": [
-            -79.4592438,
-            44.0596123
-        ]
-    },
     "02633": {
         "name": "Mountainview Rd. N. @ Maple Ave.",
         "index": 225,
@@ -1781,14 +1493,6 @@
         "coords": [
             -78.9611511,
             44.0956688
-        ]
-    },
-    "02629": {
-        "name": "Gormley GO",
-        "index": 227,
-        "coords": [
-            -79.3985214,
-            43.9409103
         ]
     },
     "02628": {
@@ -1807,22 +1511,6 @@
             43.466629
         ]
     },
-    "02626": {
-        "name": "Brock Rd. S. @ Gilmour Rd.",
-        "index": 230,
-        "coords": [
-            -80.1422806,
-            43.4668732
-        ]
-    },
-    "02623": {
-        "name": "Winchester Rd. W. @ Lake Ridge Rd.",
-        "index": 231,
-        "coords": [
-            -79.0159454,
-            43.9403648
-        ]
-    },
     "02621": {
         "name": "Ontario St. @ QEW (Beamsville) Park & Ride",
         "index": 232,
@@ -1837,14 +1525,6 @@
         "coords": [
             -79.9013138,
             43.2564278
-        ]
-    },
-    "02619": {
-        "name": "McMaster Innovation Park",
-        "index": 234,
-        "coords": [
-            -79.9015045,
-            43.2570114
         ]
     },
     "02617": {
@@ -1895,28 +1575,12 @@
             43.144886
         ]
     },
-    "02611": {
-        "name": "Wayne Gretzky Pkwy. @ Chatham St.",
-        "index": 241,
-        "coords": [
-            -80.2356873,
-            43.1449928
-        ]
-    },
     "02610": {
         "name": "Wayne Gretzky Pkwy. @ Elgin St.",
         "index": 242,
         "coords": [
             -80.2378159,
             43.1499977
-        ]
-    },
-    "02609": {
-        "name": "Wayne Gretzky Pkwy. @ Elgin St.",
-        "index": 243,
-        "coords": [
-            -80.2375336,
-            43.1501236
         ]
     },
     "02608": {
@@ -1975,28 +1639,12 @@
             44.1623192
         ]
     },
-    "02594": {
-        "name": "Yonge St. @ Line 11",
-        "index": 251,
-        "coords": [
-            -79.5767746,
-            44.16325
-        ]
-    },
     "02593": {
         "name": "Yonge St. @ Line 13",
         "index": 252,
         "coords": [
             -79.5825729,
             44.1866646
-        ]
-    },
-    "02592": {
-        "name": "Yonge St. @ Line 13",
-        "index": 253,
-        "coords": [
-            -79.5825195,
-            44.1873474
         ]
     },
     "02587": {
@@ -2031,14 +1679,6 @@
             43.8734169
         ]
     },
-    "02579": {
-        "name": "Major Mackenzie Dr. E. @ Cedar Ave.",
-        "index": 258,
-        "coords": [
-            -79.4284439,
-            43.8731232
-        ]
-    },
     "02577": {
         "name": "Yonge St. @ 4th Line (Churchill Community Centre)",
         "index": 259,
@@ -2063,28 +1703,12 @@
             43.9040985
         ]
     },
-    "02574": {
-        "name": "Markham Rd. @ Castlemore Ave.",
-        "index": 262,
-        "coords": [
-            -79.2672577,
-            43.9044647
-        ]
-    },
     "02573": {
         "name": "Victoria St. @ Thickson Rd. (Thickson Ridge Power Centre)",
         "index": 263,
         "coords": [
             -78.8993225,
             43.8673973
-        ]
-    },
-    "02572": {
-        "name": "Victoria St. @ Thickson Rd. (Thickson Ridge Power Centre)",
-        "index": 264,
-        "coords": [
-            -78.9002914,
-            43.86726
         ]
     },
     "02571": {
@@ -2103,28 +1727,12 @@
             43.753563
         ]
     },
-    "02546": {
-        "name": "Hurontario St. @ Old School Rd.",
-        "index": 267,
-        "coords": [
-            -79.851891,
-            43.753716
-        ]
-    },
     "02545": {
         "name": "Markham Rd. @ Edward Jeffreys Ave.",
         "index": 268,
         "coords": [
             -79.264854,
             43.895947
-        ]
-    },
-    "02544": {
-        "name": "Markham Rd. @ Edward Jeffreys Ave.",
-        "index": 269,
-        "coords": [
-            -79.265251,
-            43.896362
         ]
     },
     "02543": {
@@ -2135,28 +1743,12 @@
             43.905807
         ]
     },
-    "02542": {
-        "name": "Simcoe St. N. @ Parkwood Crt.",
-        "index": 271,
-        "coords": [
-            -78.867271,
-            43.905533
-        ]
-    },
     "02541": {
         "name": "Morningside Ave. @ Tams Rd.",
         "index": 272,
         "coords": [
             -79.195305,
             43.791924
-        ]
-    },
-    "02540": {
-        "name": "Morningside Ave. @ Tams Rd.",
-        "index": 273,
-        "coords": [
-            -79.19574,
-            43.792179
         ]
     },
     "02539": {
@@ -2189,14 +1781,6 @@
         "coords": [
             -79.654884,
             43.777973
-        ]
-    },
-    "02534": {
-        "name": "Hwy. 50 @ Ebenezer Rd.",
-        "index": 278,
-        "coords": [
-            -79.655106,
-            43.779167
         ]
     },
     "02533": {
@@ -2261,14 +1845,6 @@
         "coords": [
             -79.4506836,
             44.0035057
-        ]
-    },
-    "02519": {
-        "name": "Guelph Central GO Bus",
-        "index": 287,
-        "coords": [
-            -80.246388,
-            43.544932
         ]
     },
     "02518": {
@@ -2359,14 +1935,6 @@
             43.5895958
         ]
     },
-    "02413": {
-        "name": "Georgetown GO Bus",
-        "index": 299,
-        "coords": [
-            -79.9186783,
-            43.6560287
-        ]
-    },
     "02412": {
         "name": "Main St. S. @ Ridge Rd.",
         "index": 300,
@@ -2407,20 +1975,20 @@
             43.097245
         ]
     },
-    "02404": {
-        "name": "Stanley Ave. @ Hwy. 420 Park & Ride",
-        "index": 305,
-        "coords": [
-            -79.084885,
-            43.097075
-        ]
-    },
     "02402": {
         "name": "St. Catharines Fairview Mall",
         "index": 306,
         "coords": [
             -79.2452545,
             43.178627
+        ]
+    },
+    "02300": {
+        "name": "Union Station Bus Terminal",
+        "index": 307,
+        "coords": [
+            -79.376939,
+            43.644042
         ]
     },
     "02216": {
@@ -2431,38 +1999,6 @@
             43.5522194
         ]
     },
-    "02215": {
-        "name": "Erin Mills Transitway Station",
-        "index": 309,
-        "coords": [
-            -79.7004547,
-            43.552124
-        ]
-    },
-    "02214": {
-        "name": "Erin Mills Transitway Station",
-        "index": 310,
-        "coords": [
-            -79.7003021,
-            43.5520363
-        ]
-    },
-    "02213": {
-        "name": "Erin Mills Transitway Station",
-        "index": 311,
-        "coords": [
-            -79.7004547,
-            43.552124
-        ]
-    },
-    "02210": {
-        "name": "Erin Mills Transitway Station",
-        "index": 312,
-        "coords": [
-            -79.7003021,
-            43.5520363
-        ]
-    },
     "02209": {
         "name": "Renforth Dr. @ Convair Dr.",
         "index": 313,
@@ -2471,28 +2007,12 @@
             43.6723671
         ]
     },
-    "02208": {
-        "name": "Renforth Dr. @ Convair Dr.",
-        "index": 314,
-        "coords": [
-            -79.5930939,
-            43.6720657
-        ]
-    },
     "02205": {
         "name": "Weber St. E. @ Montgomery Rd.",
         "index": 315,
         "coords": [
             -80.4595566,
             43.4387054
-        ]
-    },
-    "02204": {
-        "name": "Weber St. E. @ Montgomery Rd.",
-        "index": 316,
-        "coords": [
-            -80.4601898,
-            43.4387245
         ]
     },
     "02202": {
@@ -2543,22 +2063,6 @@
             43.9569321
         ]
     },
-    "02189": {
-        "name": "Hwy. 48 @ Hoover Park Dr.",
-        "index": 323,
-        "coords": [
-            -79.2791214,
-            43.9565964
-        ]
-    },
-    "02186": {
-        "name": "Kitchener GO Bus",
-        "index": 324,
-        "coords": [
-            -80.492543,
-            43.455573
-        ]
-    },
     "02185": {
         "name": "Main St. W. @ Haddon Ave. S.",
         "index": 325,
@@ -2591,22 +2095,6 @@
             43.8872604
         ]
     },
-    "02175": {
-        "name": "Keele St. @ Peak Point Blvd.",
-        "index": 329,
-        "coords": [
-            -79.5196609,
-            43.8868027
-        ]
-    },
-    "02174": {
-        "name": "Williams Pkwy. @ Hwy. 410 Park & Ride",
-        "index": 330,
-        "coords": [
-            -79.751376,
-            43.716468
-        ]
-    },
     "02173": {
         "name": "Keele St. @ Kirby Rd.",
         "index": 331,
@@ -2615,44 +2103,12 @@
             43.8918114
         ]
     },
-    "02172": {
-        "name": "Keele St. @ Kirby Rd.",
-        "index": 332,
-        "coords": [
-            -79.5207977,
-            43.8916321
-        ]
-    },
     "02171": {
         "name": "Tenth Line @ Sleepy Hollow Ln.",
         "index": 333,
         "coords": [
             -79.2371979,
             44.0002556
-        ]
-    },
-    "02170": {
-        "name": "Tenth Line @ Sleepy Hollow Ln.",
-        "index": 334,
-        "coords": [
-            -79.2369232,
-            44.0000153
-        ]
-    },
-    "02163": {
-        "name": "Trafalgar Rd. @ Hwy. 407 Park & Ride",
-        "index": 335,
-        "coords": [
-            -79.745813,
-            43.506545
-        ]
-    },
-    "02162": {
-        "name": "Hwy. 2 @ Hwy. 35/115 Park & Ride",
-        "index": 336,
-        "coords": [
-            -78.612533,
-            43.91301
         ]
     },
     "02159": {
@@ -2679,28 +2135,12 @@
             43.4752655
         ]
     },
-    "02151": {
-        "name": "Regional Rd. 25 @ Hwy. 401 Park & Ride",
-        "index": 342,
-        "coords": [
-            -79.9038162,
-            43.5274849
-        ]
-    },
     "02150": {
         "name": "Cambridge Smart Centre",
         "index": 343,
         "coords": [
             -80.3236008,
             43.4117165
-        ]
-    },
-    "02148": {
-        "name": "Wilfrid Laurier University",
-        "index": 344,
-        "coords": [
-            -80.5279999,
-            43.4751816
         ]
     },
     "02145": {
@@ -2717,14 +2157,6 @@
         "coords": [
             -79.3085709,
             43.8535728
-        ]
-    },
-    "02141": {
-        "name": "YMCA Blvd. @ Kennedy Rd.",
-        "index": 347,
-        "coords": [
-            -79.3093185,
-            43.8532639
         ]
     },
     "02139": {
@@ -2799,28 +2231,12 @@
             43.8744316
         ]
     },
-    "02110": {
-        "name": "Bullock Dr. @ Laidlaw Blvd.",
-        "index": 357,
-        "coords": [
-            -79.2794647,
-            43.874855
-        ]
-    },
     "02109": {
         "name": "Bullock Dr. @ McCowan Rd.",
         "index": 358,
         "coords": [
             -79.2848587,
             43.8729172
-        ]
-    },
-    "02108": {
-        "name": "Bullock Dr. @ McCowan Rd.",
-        "index": 359,
-        "coords": [
-            -79.2855911,
-            43.8728409
         ]
     },
     "02107": {
@@ -2911,14 +2327,6 @@
             43.8227158
         ]
     },
-    "02078": {
-        "name": "Yonge St. @ Royal Orchard Blvd.",
-        "index": 371,
-        "coords": [
-            -79.426033,
-            43.8223343
-        ]
-    },
     "02072": {
         "name": "Yonge St. @ Observatory Ln.",
         "index": 372,
@@ -2951,14 +2359,6 @@
             44.0976105
         ]
     },
-    "02067": {
-        "name": "Yonge St. @ North St.",
-        "index": 376,
-        "coords": [
-            -79.4906998,
-            44.0978394
-        ]
-    },
     "02058": {
         "name": "Yonge St. @ Meadowview Ave.",
         "index": 377,
@@ -2973,14 +2373,6 @@
         "coords": [
             -79.4357605,
             43.8640823
-        ]
-    },
-    "02056": {
-        "name": "Yonge St. @ May Ave.",
-        "index": 379,
-        "coords": [
-            -79.435379,
-            43.8639069
         ]
     },
     "02052": {
@@ -3015,14 +2407,6 @@
             43.8135796
         ]
     },
-    "02036": {
-        "name": "Yonge St. @ Hwy. 407",
-        "index": 384,
-        "coords": [
-            -79.4293518,
-            43.8365974
-        ]
-    },
     "02035": {
         "name": "Yonge St. @ Hopkins St.",
         "index": 385,
@@ -3037,14 +2421,6 @@
         "coords": [
             -79.4304962,
             43.8415108
-        ]
-    },
-    "02032": {
-        "name": "Yonge St. @ High Tech Rd.",
-        "index": 387,
-        "coords": [
-            -79.4300156,
-            43.8413315
         ]
     },
     "02029": {
@@ -3077,14 +2453,6 @@
         "coords": [
             -79.4217148,
             43.8051033
-        ]
-    },
-    "02023": {
-        "name": "Yonge St. @ Glen Cameron Rd.",
-        "index": 392,
-        "coords": [
-            -79.4222031,
-            43.8057404
         ]
     },
     "02021": {
@@ -3167,14 +2535,6 @@
             43.8288956
         ]
     },
-    "01996": {
-        "name": "Yonge St. @ Bunker Rd.",
-        "index": 403,
-        "coords": [
-            -79.4275894,
-            43.8289528
-        ]
-    },
     "01994": {
         "name": "Yonge St. @ Bristol Rd.",
         "index": 404,
@@ -3247,14 +2607,6 @@
             44.1052742
         ]
     },
-    "01973": {
-        "name": "Toll Rd. @ Oriole Dr.",
-        "index": 413,
-        "coords": [
-            -79.5132675,
-            44.1051941
-        ]
-    },
     "01972": {
         "name": "Toll Rd. @ Centennial Ave.",
         "index": 414,
@@ -3263,36 +2615,12 @@
             44.103157
         ]
     },
-    "01971": {
-        "name": "Toll Rd. @ Centennial Ave.",
-        "index": 415,
-        "coords": [
-            -79.505188,
-            44.1031227
-        ]
-    },
     "01970": {
         "name": "Toll Rd. @ Bradford St.",
         "index": 416,
         "coords": [
             -79.4975357,
             44.1004219
-        ]
-    },
-    "01969": {
-        "name": "Toll Rd. @ Bradford St.",
-        "index": 417,
-        "coords": [
-            -79.4977875,
-            44.1004066
-        ]
-    },
-    "01926": {
-        "name": "Main St. @ Stouffer St.",
-        "index": 418,
-        "coords": [
-            -79.2386246,
-            43.9731178
         ]
     },
     "01925": {
@@ -3327,14 +2655,6 @@
             43.8732071
         ]
     },
-    "01887": {
-        "name": "Keele St. @ Teston Rd.",
-        "index": 423,
-        "coords": [
-            -79.5169067,
-            43.8736916
-        ]
-    },
     "01878": {
         "name": "Keele St. @ Drummond Dr.",
         "index": 424,
@@ -3343,28 +2663,12 @@
             43.8680077
         ]
     },
-    "01877": {
-        "name": "Keele St. @ Drummond Dr.",
-        "index": 425,
-        "coords": [
-            -79.5149994,
-            43.8673172
-        ]
-    },
     "01861": {
         "name": "Hwy. 7 @ Swansea Rd.",
         "index": 426,
         "coords": [
             -79.2980042,
             43.8641014
-        ]
-    },
-    "01860": {
-        "name": "Hwy. 7 @ Swansea Rd.",
-        "index": 427,
-        "coords": [
-            -79.2985458,
-            43.8637314
         ]
     },
     "01825": {
@@ -3381,14 +2685,6 @@
         "coords": [
             -79.2921219,
             43.8656082
-        ]
-    },
-    "01806": {
-        "name": "Bullock Dr. @ Hwy. 7",
-        "index": 430,
-        "coords": [
-            -79.2920685,
-            43.8661575
         ]
     },
     "01805": {
@@ -3413,14 +2709,6 @@
         "coords": [
             -79.4053802,
             43.8349037
-        ]
-    },
-    "01802": {
-        "name": "Tenth Line @ Aintree Dr.",
-        "index": 434,
-        "coords": [
-            -79.2320175,
-            43.978157
         ]
     },
     "01801": {
@@ -3463,14 +2751,6 @@
             43.4647789
         ]
     },
-    "01728": {
-        "name": "Trafalgar Rd. @ Rosegate Way",
-        "index": 440,
-        "coords": [
-            -79.7117538,
-            43.4822998
-        ]
-    },
     "01727": {
         "name": "Trafalgar Rd. @ White Oaks Blvd.",
         "index": 441,
@@ -3511,14 +2791,6 @@
             43.5140228
         ]
     },
-    "01714": {
-        "name": "Gordon St. @ Arkell Rd.",
-        "index": 446,
-        "coords": [
-            -80.1998749,
-            43.5137901
-        ]
-    },
     "01713": {
         "name": "Gordon St. @ Edinburgh Rd. S.",
         "index": 447,
@@ -3527,28 +2799,12 @@
             43.5166702
         ]
     },
-    "01712": {
-        "name": "Gordon St. @ Edinburgh Rd. S.",
-        "index": 448,
-        "coords": [
-            -80.2033386,
-            43.5163383
-        ]
-    },
     "01711": {
         "name": "Gordon St. @ Kortright Rd. E.",
         "index": 449,
         "coords": [
             -80.2131119,
             43.5224457
-        ]
-    },
-    "01708": {
-        "name": "Gordon St. @ Stone Rd.",
-        "index": 450,
-        "coords": [
-            -80.2259216,
-            43.5271797
         ]
     },
     "01707": {
@@ -3575,14 +2831,6 @@
             43.5527267
         ]
     },
-    "01703": {
-        "name": "Elizabeth St. @ Stevenson St. S.",
-        "index": 454,
-        "coords": [
-            -80.2346191,
-            43.5534325
-        ]
-    },
     "01702": {
         "name": "Elizabeth St. @ Beaumont Cr.",
         "index": 455,
@@ -3591,28 +2839,12 @@
             43.5560417
         ]
     },
-    "01701": {
-        "name": "Elizabeth St. @ Beaumont Cr.",
-        "index": 456,
-        "coords": [
-            -80.2199249,
-            43.5557289
-        ]
-    },
     "01662": {
         "name": "Yonge St. @ Greenfield Ave.",
         "index": 457,
         "coords": [
             -79.4112015,
             43.7631454
-        ]
-    },
-    "01661": {
-        "name": "Yonge St. @ Finch Ave.",
-        "index": 458,
-        "coords": [
-            -79.4156036,
-            43.7804375
         ]
     },
     "01660": {
@@ -3629,14 +2861,6 @@
         "coords": [
             -79.1310883,
             44.0937347
-        ]
-    },
-    "01658": {
-        "name": "Toronto St. S. @ Banff Rd.",
-        "index": 461,
-        "coords": [
-            -79.1305542,
-            44.0940247
         ]
     },
     "01657": {
@@ -3661,14 +2885,6 @@
         "coords": [
             -79.4139328,
             43.7724152
-        ]
-    },
-    "01653": {
-        "name": "Yonge St. @ Elmwood Ave.",
-        "index": 465,
-        "coords": [
-            -79.4120407,
-            43.7664719
         ]
     },
     "01652": {
@@ -3751,14 +2967,6 @@
             44.0118065
         ]
     },
-    "01543": {
-        "name": "Wellington St. E. @ First Commerce Dr.",
-        "index": 476,
-        "coords": [
-            -79.4139557,
-            44.0122299
-        ]
-    },
     "01538": {
         "name": "Yonge St. @ Glenn Ave.",
         "index": 477,
@@ -3791,22 +2999,6 @@
             44.3294563
         ]
     },
-    "01534": {
-        "name": "Yonge St. @ Lynn St.",
-        "index": 481,
-        "coords": [
-            -79.6207199,
-            44.3300591
-        ]
-    },
-    "01532": {
-        "name": "Yonge St. @ Little Ave.",
-        "index": 482,
-        "coords": [
-            -79.6624603,
-            44.3664589
-        ]
-    },
     "01531": {
         "name": "Yonge St. @ Innisfil Beach Rd.",
         "index": 483,
@@ -3823,44 +3015,12 @@
             44.3528137
         ]
     },
-    "01527": {
-        "name": "Yonge St. @ Esther Dr.",
-        "index": 485,
-        "coords": [
-            -79.6358337,
-            44.3527412
-        ]
-    },
     "01526": {
         "name": "Yonge St. @ Country Ln.",
         "index": 486,
         "coords": [
             -79.6335144,
             44.3517113
-        ]
-    },
-    "01525": {
-        "name": "Yonge St. @ Country Ln.",
-        "index": 487,
-        "coords": [
-            -79.6328354,
-            44.3516769
-        ]
-    },
-    "01524": {
-        "name": "Yonge St. @ Big Bay Point Rd.",
-        "index": 488,
-        "coords": [
-            -79.6467361,
-            44.356678
-        ]
-    },
-    "01522": {
-        "name": "Yonge St. @ Innisfil Beach Rd.",
-        "index": 489,
-        "coords": [
-            -79.6132584,
-            44.2995491
         ]
     },
     "01521": {
@@ -3885,14 +3045,6 @@
         "coords": [
             -79.5600662,
             44.1152649
-        ]
-    },
-    "01514": {
-        "name": "Holland St. E. @ Colborne St.",
-        "index": 493,
-        "coords": [
-            -79.5606918,
-            44.115345
         ]
     },
     "01508": {
@@ -3927,28 +3079,12 @@
             44.1266556
         ]
     },
-    "01504": {
-        "name": "Barrie St. @ 8th Line",
-        "index": 498,
-        "coords": [
-            -79.5678711,
-            44.1262932
-        ]
-    },
     "01488": {
         "name": "Hurontario St. @ Travelled Rd.",
         "index": 499,
         "coords": [
             -79.9889755,
             43.8550072
-        ]
-    },
-    "01487": {
-        "name": "Hurontario St. @ Travelled Rd.",
-        "index": 500,
-        "coords": [
-            -79.9887848,
-            43.8551598
         ]
     },
     "01483": {
@@ -3997,14 +3133,6 @@
         "coords": [
             -79.7274475,
             43.5736008
-        ]
-    },
-    "01454": {
-        "name": "Main St. N. @ Williams Pkwy.",
-        "index": 507,
-        "coords": [
-            -79.7768326,
-            43.6986389
         ]
     },
     "01452": {
@@ -4095,14 +3223,6 @@
             43.5774536
         ]
     },
-    "01435": {
-        "name": "Trafalgar Rd. @ Burnhamthorpe Rd.",
-        "index": 519,
-        "coords": [
-            -79.7375031,
-            43.5013275
-        ]
-    },
     "01426": {
         "name": "Main St. N. @ Vodden St. W.",
         "index": 520,
@@ -4135,14 +3255,6 @@
             43.8690186
         ]
     },
-    "01407": {
-        "name": "Regional Rd. 50 @ Queensgate Blvd.",
-        "index": 524,
-        "coords": [
-            -79.7231979,
-            43.8689957
-        ]
-    },
     "01406": {
         "name": "Hwy. 50 @ McEwan Dr.",
         "index": 525,
@@ -4151,28 +3263,12 @@
             43.8615036
         ]
     },
-    "01405": {
-        "name": "Hwy. 50 @ McEwan Dr.",
-        "index": 526,
-        "coords": [
-            -79.7127533,
-            43.8615341
-        ]
-    },
     "01404": {
         "name": "Regional Rd. 50 @ George Bolton Pkwy.",
         "index": 527,
         "coords": [
             -79.707756,
             43.8573799
-        ]
-    },
-    "01403": {
-        "name": "Regional Rd. 50 @ George Bolton Pkwy.",
-        "index": 528,
-        "coords": [
-            -79.7071075,
-            43.8573532
         ]
     },
     "01402": {
@@ -4199,14 +3295,6 @@
             43.7499313
         ]
     },
-    "01393": {
-        "name": "Albion Rd. @ Steeles Ave. W.",
-        "index": 532,
-        "coords": [
-            -79.6393509,
-            43.7503242
-        ]
-    },
     "01385": {
         "name": "Thomas St. @ Erin Mills Pkwy.",
         "index": 533,
@@ -4215,28 +3303,12 @@
             43.5702477
         ]
     },
-    "01384": {
-        "name": "Thomas St. @ Erin Mills Pkwy.",
-        "index": 534,
-        "coords": [
-            -79.722023,
-            43.5701637
-        ]
-    },
     "01374": {
         "name": "Steeles Ave. E. @ Kennedy Rd. S.",
         "index": 535,
         "coords": [
             -79.7234573,
             43.6751747
-        ]
-    },
-    "01373": {
-        "name": "Steeles Ave. E. @ Kennedy Rd. S.",
-        "index": 536,
-        "coords": [
-            -79.7218475,
-            43.6759148
         ]
     },
     "01363": {
@@ -4253,46 +3325,6 @@
         "coords": [
             -79.6550674,
             43.5833244
-        ]
-    },
-    "01361": {
-        "name": "Rathburn Rd. W. @ Mavis Rd.",
-        "index": 539,
-        "coords": [
-            -79.6553574,
-            43.5826874
-        ]
-    },
-    "01360": {
-        "name": "Rathburn Rd. W. @ Elora Dr.",
-        "index": 540,
-        "coords": [
-            -79.6535568,
-            43.5850639
-        ]
-    },
-    "01359": {
-        "name": "Rathburn Rd. W. @ Elora Dr.",
-        "index": 541,
-        "coords": [
-            -79.6525726,
-            43.5884743
-        ]
-    },
-    "01358": {
-        "name": "Rathburn Rd. W. @ Elora Dr.",
-        "index": 542,
-        "coords": [
-            -79.6525726,
-            43.5875092
-        ]
-    },
-    "01357": {
-        "name": "Rathburn Rd. W. @ Elora Dr.",
-        "index": 543,
-        "coords": [
-            -79.6536331,
-            43.5843239
         ]
     },
     "01356": {
@@ -4359,14 +3391,6 @@
             43.5925064
         ]
     },
-    "01326": {
-        "name": "Millcreek Dr. @ Millrace Crt.",
-        "index": 552,
-        "coords": [
-            -79.7469559,
-            43.5927086
-        ]
-    },
     "01325": {
         "name": "Millcreek Dr. @ Erin Mills Pkwy.",
         "index": 553,
@@ -4375,28 +3399,12 @@
             43.5904884
         ]
     },
-    "01322": {
-        "name": "Main St. N. @ Williams Pkwy.",
-        "index": 554,
-        "coords": [
-            -79.7777634,
-            43.6990433
-        ]
-    },
     "01321": {
         "name": "Main St. N. @ Vodden St. E.",
         "index": 555,
         "coords": [
             -79.7685547,
             43.6925087
-        ]
-    },
-    "01317": {
-        "name": "Main St. S. @ Nanwood Dr.",
-        "index": 556,
-        "coords": [
-            -79.7472763,
-            43.6763763
         ]
     },
     "01313": {
@@ -4423,36 +3431,12 @@
             43.6736908
         ]
     },
-    "01307": {
-        "name": "Main St. S. @ Elgin Dr.",
-        "index": 560,
-        "coords": [
-            -79.7431564,
-            43.6734314
-        ]
-    },
-    "01306": {
-        "name": "Main St. S. @ Clarence St.",
-        "index": 561,
-        "coords": [
-            -79.752037,
-            43.6800728
-        ]
-    },
     "01294": {
         "name": "Hwy. 10 @ Dufferin Rd.",
         "index": 562,
         "coords": [
             -80.0721436,
             43.9159317
-        ]
-    },
-    "01292": {
-        "name": "Hurontario St. @ Travelled Rd.",
-        "index": 563,
-        "coords": [
-            -79.9916916,
-            43.8571777
         ]
     },
     "01291": {
@@ -4463,28 +3447,12 @@
             43.8870239
         ]
     },
-    "01290": {
-        "name": "Hurontario St. @ Terry St.",
-        "index": 565,
-        "coords": [
-            -80.0319824,
-            43.8870316
-        ]
-    },
     "01289": {
         "name": "Hurontario St. @ Olde Baseline Rd.",
         "index": 566,
         "coords": [
             -79.9158249,
             43.8008842
-        ]
-    },
-    "01288": {
-        "name": "Hurontario St. @ Olde Baseline Rd.",
-        "index": 567,
-        "coords": [
-            -79.9153137,
-            43.8009415
         ]
     },
     "01286": {
@@ -4511,14 +3479,6 @@
             43.8327255
         ]
     },
-    "01283": {
-        "name": "Hurontario St. @ Forks of The Credit Rd.",
-        "index": 571,
-        "coords": [
-            -79.9580383,
-            43.8325996
-        ]
-    },
     "01282": {
         "name": "Hurontario St. @ Chester Dr.",
         "index": 572,
@@ -4533,14 +3493,6 @@
         "coords": [
             -79.905365,
             43.7933197
-        ]
-    },
-    "01280": {
-        "name": "Hurontario St. @ Boston Mills Rd.",
-        "index": 574,
-        "coords": [
-            -79.9048004,
-            43.7932968
         ]
     },
     "01279": {
@@ -4623,14 +3575,6 @@
             43.5623436
         ]
     },
-    "01246": {
-        "name": "Mississauga Rd. @ Argentia Rd.",
-        "index": 585,
-        "coords": [
-            -79.7399902,
-            43.6003456
-        ]
-    },
     "01245": {
         "name": "Erin Mills Pkwy. @ Windwood Dr.",
         "index": 586,
@@ -4655,28 +3599,12 @@
             43.5906754
         ]
     },
-    "01242": {
-        "name": "Erin Mills Pkwy. @ Millcreek Dr.",
-        "index": 589,
-        "coords": [
-            -79.7415771,
-            43.5896568
-        ]
-    },
     "01241": {
         "name": "Erin Mills Pkwy. @ Credit Valley Rd. (Credit Valley Hospital)",
         "index": 590,
         "coords": [
             -79.7034225,
             43.5574188
-        ]
-    },
-    "01240": {
-        "name": "Erin Mills Pkwy. @ Erin Centre Blvd.",
-        "index": 591,
-        "coords": [
-            -79.7112045,
-            43.5623245
         ]
     },
     "01237": {
@@ -4703,14 +3631,6 @@
             43.5688934
         ]
     },
-    "01234": {
-        "name": "Eglinton Ave. W. @ Mississauga Rd.",
-        "index": 595,
-        "coords": [
-            -79.695961,
-            43.5683022
-        ]
-    },
     "01230": {
         "name": "Duke of York Blvd. @ Princess Royal Dr.",
         "index": 596,
@@ -4733,14 +3653,6 @@
         "coords": [
             -79.7763901,
             43.5840569
-        ]
-    },
-    "01202": {
-        "name": "Derry Rd. W. @ Tenth Line W.",
-        "index": 599,
-        "coords": [
-            -79.7760086,
-            43.5840263
         ]
     },
     "01200": {
@@ -4775,22 +3687,6 @@
             43.5863571
         ]
     },
-    "01195": {
-        "name": "Derry Rd. W. @ Danton Promenade",
-        "index": 604,
-        "coords": [
-            -79.7736511,
-            43.5858917
-        ]
-    },
-    "01193": {
-        "name": "Derry Rd. W. @ Ninth Line",
-        "index": 605,
-        "coords": [
-            -79.7863235,
-            43.5746651
-        ]
-    },
     "01192": {
         "name": "Creditview Rd. @ Rathkeale Rd.",
         "index": 606,
@@ -4813,14 +3709,6 @@
         "coords": [
             -79.7130508,
             43.7183762
-        ]
-    },
-    "01184": {
-        "name": "Clark Blvd. @ Kings Cross Rd.",
-        "index": 609,
-        "coords": [
-            -79.7124939,
-            43.7190437
         ]
     },
     "01177": {
@@ -4887,14 +3775,6 @@
             43.7092781
         ]
     },
-    "01161": {
-        "name": "Bramalea Rd. @ Balmoral Dr.",
-        "index": 618,
-        "coords": [
-            -79.7049255,
-            43.7152138
-        ]
-    },
     "01160": {
         "name": "Bramalea Rd. @ Avondale Blvd.",
         "index": 619,
@@ -4909,14 +3789,6 @@
         "coords": [
             -79.8141403,
             43.6813278
-        ]
-    },
-    "01150": {
-        "name": "Bovaird Dr. W. @ McLaughlin Rd. N.",
-        "index": 621,
-        "coords": [
-            -79.7971039,
-            43.6961441
         ]
     },
     "01143": {
@@ -4943,14 +3815,6 @@
             43.5927467
         ]
     },
-    "01138": {
-        "name": "Aquitaine Ave. @ Millcreek Dr.",
-        "index": 625,
-        "coords": [
-            -79.7559357,
-            43.5933189
-        ]
-    },
     "01137": {
         "name": "Aquitaine Ave. @ Montevideo Rd.",
         "index": 626,
@@ -4959,28 +3823,12 @@
             43.5907898
         ]
     },
-    "01136": {
-        "name": "Aquitaine Ave. @ Montevideo Rd.",
-        "index": 627,
-        "coords": [
-            -79.7560043,
-            43.5898781
-        ]
-    },
     "01135": {
         "name": "Aquitaine Ave. @ Glen Erin Dr.",
         "index": 628,
         "coords": [
             -79.7586594,
             43.5866318
-        ]
-    },
-    "01134": {
-        "name": "Aquitaine Ave. @ Glen Erin Dr.",
-        "index": 629,
-        "coords": [
-            -79.7581024,
-            43.5867882
         ]
     },
     "01024": {
@@ -5013,14 +3861,6 @@
         "coords": [
             -79.8501892,
             43.5167885
-        ]
-    },
-    "01016": {
-        "name": "Derry Rd. @ Thompson Rd. S.",
-        "index": 634,
-        "coords": [
-            -79.8508148,
-            43.516552
         ]
     },
     "01014": {
@@ -5151,14 +3991,6 @@
             43.6589584
         ]
     },
-    "00989": {
-        "name": "Hurontario St. @ County Court Blvd.",
-        "index": 651,
-        "coords": [
-            -79.7277679,
-            43.6621399
-        ]
-    },
     "00978": {
         "name": "Yonge St. @ County Rd. 89",
         "index": 652,
@@ -5191,28 +4023,12 @@
             43.9830933
         ]
     },
-    "00973": {
-        "name": "Tenth Line @ Forsyth Farm Dr.",
-        "index": 656,
-        "coords": [
-            -79.2332001,
-            43.9838295
-        ]
-    },
     "00972": {
         "name": "Kingston Rd. @ Walnut Ln.",
         "index": 657,
         "coords": [
             -79.0968323,
             43.8309517
-        ]
-    },
-    "00971": {
-        "name": "Kingston Rd. @ Walnut Ln.",
-        "index": 658,
-        "coords": [
-            -79.0965042,
-            43.8308105
         ]
     },
     "00969": {
@@ -5279,30 +4095,6 @@
             43.9326401
         ]
     },
-    "00958": {
-        "name": "10953 Hwy. 48 @ Elgin Mills Rd. E.",
-        "index": 667,
-        "coords": [
-            -79.273407,
-            43.9325027
-        ]
-    },
-    "00951": {
-        "name": "Hwy. 7A @ 6th Line",
-        "index": 668,
-        "coords": [
-            -78.97204,
-            44.08641
-        ]
-    },
-    "00950": {
-        "name": "Hwy. 7A @ 6th Line",
-        "index": 669,
-        "coords": [
-            -78.9722,
-            44.08645
-        ]
-    },
     "00949": {
         "name": "Brant St. @ Churchill Ave.",
         "index": 670,
@@ -5333,14 +4125,6 @@
         "coords": [
             -78.7001495,
             43.9068298
-        ]
-    },
-    "00945": {
-        "name": "Martin Rd. @ Aspen Springs Dr.",
-        "index": 674,
-        "coords": [
-            -78.7005005,
-            43.9070091
         ]
     },
     "00942": {
@@ -5391,28 +4175,12 @@
             43.6406593
         ]
     },
-    "00929": {
-        "name": "Queen St. @ Tanners Dr.",
-        "index": 681,
-        "coords": [
-            -80.0251007,
-            43.6400948
-        ]
-    },
     "00926": {
         "name": "Hwy. 7 @ Banting Rd.",
         "index": 682,
         "coords": [
             -79.9445801,
             43.6510315
-        ]
-    },
-    "00924": {
-        "name": "Maple Ave. @ Mountainview Rd. N.",
-        "index": 683,
-        "coords": [
-            -79.9031219,
-            43.6503716
         ]
     },
     "00914": {
@@ -5423,28 +4191,12 @@
             43.6341629
         ]
     },
-    "00913": {
-        "name": "Young St. @ Peel St.",
-        "index": 685,
-        "coords": [
-            -80.0327072,
-            43.6342812
-        ]
-    },
     "00912": {
         "name": "Waterdown Rd. @ Masonry Crt.",
         "index": 686,
         "coords": [
             -79.8554382,
             43.3087234
-        ]
-    },
-    "00911": {
-        "name": "Waterdown Rd. @ Masonry Crt.",
-        "index": 687,
-        "coords": [
-            -79.8549042,
-            43.3084755
         ]
     },
     "00902": {
@@ -5463,14 +4215,6 @@
             43.5222435
         ]
     },
-    "00895": {
-        "name": "Thompson Rd. S. @ McCuaig Dr.",
-        "index": 690,
-        "coords": [
-            -79.8587494,
-            43.5221252
-        ]
-    },
     "00894": {
         "name": "Thompson Rd. S. @ Laurier Ave.",
         "index": 691,
@@ -5479,28 +4223,12 @@
             43.5199051
         ]
     },
-    "00893": {
-        "name": "Thompson Rd. S. @ Laurier Ave.",
-        "index": 692,
-        "coords": [
-            -79.85619,
-            43.52007
-        ]
-    },
     "00892": {
         "name": "Thompson Rd. S. @ Childs Dr.",
         "index": 693,
         "coords": [
             -79.8612061,
             43.5239563
-        ]
-    },
-    "00891": {
-        "name": "Thompson Rd. S. @ Childs Dr.",
-        "index": 694,
-        "coords": [
-            -79.8615265,
-            43.5241127
         ]
     },
     "00890": {
@@ -5583,14 +4311,6 @@
             43.3246918
         ]
     },
-    "00876": {
-        "name": "Plains Rd. E. @ Francis Rd.",
-        "index": 705,
-        "coords": [
-            -79.8296585,
-            43.3239784
-        ]
-    },
     "00875": {
         "name": "Plains Rd. E. @ Falcon Blvd.",
         "index": 706,
@@ -5605,14 +4325,6 @@
         "coords": [
             -79.8343353,
             43.3207474
-        ]
-    },
-    "00870": {
-        "name": "Plains Rd. E. @ Gallagher Rd.",
-        "index": 708,
-        "coords": [
-            -79.8447876,
-            43.3126945
         ]
     },
     "00868": {
@@ -5647,14 +4359,6 @@
             43.6317863
         ]
     },
-    "00864": {
-        "name": "Mill St. E. @ Fellows St. (Acton GO)",
-        "index": 713,
-        "coords": [
-            -80.0368423,
-            43.6337471
-        ]
-    },
     "00861": {
         "name": "Main St. S. @ Bridge St.",
         "index": 714,
@@ -5679,14 +4383,6 @@
             43.655117
         ]
     },
-    "00853": {
-        "name": "Main St. N. @ Moore Park Cres.",
-        "index": 717,
-        "coords": [
-            -79.9335709,
-            43.6549454
-        ]
-    },
     "00849": {
         "name": "Hwy. 7 @ Hyland Ave.",
         "index": 718,
@@ -5701,14 +4397,6 @@
         "coords": [
             -79.940506,
             43.6550446
-        ]
-    },
-    "00847": {
-        "name": "Hwy. 7 @ Banting Rd.",
-        "index": 720,
-        "coords": [
-            -79.9443207,
-            43.6515427
         ]
     },
     "00846": {
@@ -5735,14 +4423,6 @@
             43.6499443
         ]
     },
-    "00841": {
-        "name": "Guelph St. @ Sinclair Ave.",
-        "index": 724,
-        "coords": [
-            -79.8933182,
-            43.6496468
-        ]
-    },
     "00839": {
         "name": "Guelph St. @ Noble St.",
         "index": 725,
@@ -5767,28 +4447,12 @@
             43.6512375
         ]
     },
-    "00834": {
-        "name": "Guelph St. @ Mill St.",
-        "index": 728,
-        "coords": [
-            -79.9234467,
-            43.6513214
-        ]
-    },
     "00833": {
         "name": "Guelph St. @ McFarlane Dr.",
         "index": 729,
         "coords": [
             -79.8769226,
             43.6489639
-        ]
-    },
-    "00832": {
-        "name": "Guelph St. @ Maple Ave.",
-        "index": 730,
-        "coords": [
-            -79.9172134,
-            43.6510811
         ]
     },
     "00830": {
@@ -5807,36 +4471,12 @@
             43.6491737
         ]
     },
-    "00827": {
-        "name": "Guelph St. @ Delrex Blvd.",
-        "index": 733,
-        "coords": [
-            -79.88134,
-            43.6489067
-        ]
-    },
     "00824": {
         "name": "Guelph St. @ Armstrong Ave.",
         "index": 734,
         "coords": [
             -79.8849487,
             43.6494751
-        ]
-    },
-    "00823": {
-        "name": "Guelph St. @ Armstrong Ave.",
-        "index": 735,
-        "coords": [
-            -79.8847427,
-            43.6491852
-        ]
-    },
-    "00822": {
-        "name": "Guelph St. @ Noble St.",
-        "index": 736,
-        "coords": [
-            -79.8575363,
-            43.6469536
         ]
     },
     "00820": {
@@ -5847,28 +4487,12 @@
             43.3287392
         ]
     },
-    "00819": {
-        "name": "Fairview St. @ Maple Ave.",
-        "index": 738,
-        "coords": [
-            -79.8197861,
-            43.3295403
-        ]
-    },
     "00816": {
         "name": "Derry Rd. @ Trudeau Dr.",
         "index": 739,
         "coords": [
             -79.8378067,
             43.5284157
-        ]
-    },
-    "00815": {
-        "name": "Derry Rd. @ Trudeau Dr.",
-        "index": 740,
-        "coords": [
-            -79.8381882,
-            43.5277672
         ]
     },
     "00812": {
@@ -5879,22 +4503,6 @@
             43.5185127
         ]
     },
-    "00811": {
-        "name": "Derry Rd. @ Thompson Rd. S.",
-        "index": 742,
-        "coords": [
-            -79.8485449007419,
-            43.5183742974875
-        ]
-    },
-    "00810": {
-        "name": "Derry Rd. @ Miller Way",
-        "index": 743,
-        "coords": [
-            -79.8459167,
-            43.520977
-        ]
-    },
     "00809": {
         "name": "Derry Rd. @ James Snow Pkwy.",
         "index": 744,
@@ -5903,28 +4511,12 @@
             43.5310211
         ]
     },
-    "00808": {
-        "name": "Derry Rd. @ James Snow Pkwy.",
-        "index": 745,
-        "coords": [
-            -79.8352661,
-            43.5304413
-        ]
-    },
     "00807": {
         "name": "Derry Rd. @ Fourth Line",
         "index": 746,
         "coords": [
             -79.8403397,
             43.5258636
-        ]
-    },
-    "00806": {
-        "name": "Derry Rd. @ Fourth Line",
-        "index": 747,
-        "coords": [
-            -79.8401794,
-            43.5261955
         ]
     },
     "00804": {
@@ -5943,14 +4535,6 @@
             43.6138763
         ]
     },
-    "00802": {
-        "name": "Alma St. @ Fall St.",
-        "index": 750,
-        "coords": [
-            -80.148674,
-            43.6140785
-        ]
-    },
     "00801": {
         "name": "Main St. S. @ Frederick St.",
         "index": 751,
@@ -5965,14 +4549,6 @@
         "coords": [
             -79.277901,
             43.945339
-        ]
-    },
-    "00737": {
-        "name": "Hwy. 48 @ 19th Ave.",
-        "index": 753,
-        "coords": [
-            -79.278046,
-            43.945057
         ]
     },
     "00736": {
@@ -6007,14 +4583,6 @@
             43.8536987
         ]
     },
-    "00730": {
-        "name": "Erin Mills Pkwy. @ Britannia Rd. W.",
-        "index": 758,
-        "coords": [
-            -79.7318649,
-            43.577713
-        ]
-    },
     "00729": {
         "name": "Kingston Rd. @ Salem Rd.",
         "index": 759,
@@ -6023,28 +4591,12 @@
             43.8634529
         ]
     },
-    "00728": {
-        "name": "Kingston Rd. @ Salem Rd.",
-        "index": 760,
-        "coords": [
-            -79.0152206,
-            43.8634377
-        ]
-    },
     "00727": {
         "name": "Liverpool Rd. @ Pickering Pkwy.",
         "index": 761,
         "coords": [
             -79.08914,
             43.83309
-        ]
-    },
-    "00726": {
-        "name": "Liverpool Rd. @ Pickering Pkwy.",
-        "index": 762,
-        "coords": [
-            -79.0894,
-            43.83299
         ]
     },
     "00723": {
@@ -6079,14 +4631,6 @@
             43.9130058
         ]
     },
-    "00718": {
-        "name": "Durham Hwy. 2 @ Durham Regional Rd. 42",
-        "index": 767,
-        "coords": [
-            -78.6273422,
-            43.9128151
-        ]
-    },
     "00716": {
         "name": "Durham Rd. 2 @ Durham Rd. 57",
         "index": 768,
@@ -6117,14 +4661,6 @@
         "coords": [
             -78.9526443,
             43.9554024
-        ]
-    },
-    "00709": {
-        "name": "Winchester Rd. @ Simcoe St.",
-        "index": 772,
-        "coords": [
-            -78.9552917,
-            43.9549179
         ]
     },
     "00706": {
@@ -6159,14 +4695,6 @@
             43.9511795
         ]
     },
-    "00702": {
-        "name": "Winchester Rd. @ Ashburn Rd.",
-        "index": 777,
-        "coords": [
-            -78.9728317,
-            43.9506226
-        ]
-    },
     "00699": {
         "name": "Toronto St. @ Welwood Dr.",
         "index": 778,
@@ -6191,36 +4719,12 @@
             44.1058197
         ]
     },
-    "00696": {
-        "name": "Toronto St. S. @ Mill St.",
-        "index": 781,
-        "coords": [
-            -79.124939,
-            44.1044579
-        ]
-    },
-    "00695": {
-        "name": "Toronto St. @ Elgin Park Dr.",
-        "index": 782,
-        "coords": [
-            -79.1284714,
-            44.0974541
-        ]
-    },
     "00694": {
         "name": "Toronto St. S. @ Campbell Dr.",
         "index": 783,
         "coords": [
             -79.1256332,
             44.1023788
-        ]
-    },
-    "00693": {
-        "name": "Toronto St. S. @ Campbell Dr.",
-        "index": 784,
-        "coords": [
-            -79.12558,
-            44.10191
         ]
     },
     "00692": {
@@ -6247,28 +4751,12 @@
             43.9728813
         ]
     },
-    "00688": {
-        "name": "Thickson Rd. @ Columbus Rd.",
-        "index": 788,
-        "coords": [
-            -78.9503326,
-            43.9731331
-        ]
-    },
     "00687": {
         "name": "Thickson Rd. @ Carnwith Dr.",
         "index": 789,
         "coords": [
             -78.9483719,
             43.9684601
-        ]
-    },
-    "00686": {
-        "name": "Thickson Rd. @ Carnwith Dr.",
-        "index": 790,
-        "coords": [
-            -78.9479523,
-            43.9678307
         ]
     },
     "00685": {
@@ -6279,28 +4767,12 @@
             43.9620743
         ]
     },
-    "00684": {
-        "name": "Thickson Rd. @ Blackfriar Ave.",
-        "index": 792,
-        "coords": [
-            -78.9452591,
-            43.9618492
-        ]
-    },
     "00683": {
         "name": "Thickson Rd. @ Hwy. 12",
         "index": 793,
         "coords": [
             -78.9586563,
             43.9886971
-        ]
-    },
-    "00682": {
-        "name": "Thickson Rd. @ Hwy. 12",
-        "index": 794,
-        "coords": [
-            -78.9585571,
-            43.9888649
         ]
     },
     "00681": {
@@ -6319,28 +4791,12 @@
             44.4279976
         ]
     },
-    "00674": {
-        "name": "Simcoe St. E. @ Union St.",
-        "index": 797,
-        "coords": [
-            -79.1486282,
-            44.4281197
-        ]
-    },
     "00671": {
         "name": "Simcoe St. @ Queen St.",
         "index": 798,
         "coords": [
             -78.9472961,
             44.1037521
-        ]
-    },
-    "00670": {
-        "name": "Simcoe St. @ Queen St.",
-        "index": 799,
-        "coords": [
-            -78.9469452,
-            44.103035
         ]
     },
     "00669": {
@@ -6367,14 +4823,6 @@
             44.4291801
         ]
     },
-    "00664": {
-        "name": "Simcoe St. E. @ John St. S.",
-        "index": 803,
-        "coords": [
-            -79.1525421,
-            44.4291573
-        ]
-    },
     "00662": {
         "name": "Simcoe St. @ Beech St.",
         "index": 804,
@@ -6391,28 +4839,12 @@
             44.1073189
         ]
     },
-    "00660": {
-        "name": "Simcoe St. @ Balsam St.",
-        "index": 806,
-        "coords": [
-            -78.9488068,
-            44.107399
-        ]
-    },
     "00657": {
         "name": "Scugog St. @ Old Simcoe Rd.",
         "index": 807,
         "coords": [
             -78.9550934,
             44.0978508
-        ]
-    },
-    "00656": {
-        "name": "Scugog St. @ Old Simcoe Rd.",
-        "index": 808,
-        "coords": [
-            -78.955307,
-            44.0977287
         ]
     },
     "00655": {
@@ -6431,14 +4863,6 @@
             44.0994339
         ]
     },
-    "00653": {
-        "name": "Scugog St. @ Arrow St.",
-        "index": 811,
-        "coords": [
-            -78.9478226,
-            44.0992775
-        ]
-    },
     "00652": {
         "name": "Scugog St. @ Simcoe St.",
         "index": 812,
@@ -6455,28 +4879,12 @@
             44.3438568
         ]
     },
-    "00650": {
-        "name": "Concession 12 @ Sideroad 18A (Brock High School)",
-        "index": 814,
-        "coords": [
-            -79.0672836,
-            44.3437309
-        ]
-    },
     "00649": {
         "name": "Reach St. @ Simcoe St.",
         "index": 815,
         "coords": [
             -78.951828,
             44.1121788
-        ]
-    },
-    "00648": {
-        "name": "Reach St. @ Simcoe St.",
-        "index": 816,
-        "coords": [
-            -78.9516296,
-            44.112381
         ]
     },
     "00647": {
@@ -6487,14 +4895,6 @@
             44.1102142
         ]
     },
-    "00646": {
-        "name": "Reach St. @ Sherrington Dr.",
-        "index": 818,
-        "coords": [
-            -78.9619446,
-            44.1100655
-        ]
-    },
     "00634": {
         "name": "Kingston Rd. @ Whites Rd.",
         "index": 819,
@@ -6503,28 +4903,12 @@
             43.8194008
         ]
     },
-    "00633": {
-        "name": "Kingston Rd. @ Whites Rd.",
-        "index": 820,
-        "coords": [
-            -79.1159744,
-            43.8189011
-        ]
-    },
     "00623": {
         "name": "Kingston Rd. @ Rougemount Dr.",
         "index": 821,
         "coords": [
             -79.12996,
             43.80911
-        ]
-    },
-    "00622": {
-        "name": "Kingston Rd. @ Rougemount Dr.",
-        "index": 822,
-        "coords": [
-            -79.129097,
-            43.8096542
         ]
     },
     "00590": {
@@ -6591,14 +4975,6 @@
             44.1878014
         ]
     },
-    "00563": {
-        "name": "Hwy. 7 & 12 @ Jacobsen Blvd.",
-        "index": 831,
-        "coords": [
-            -79.0311584,
-            44.1879311
-        ]
-    },
     "00562": {
         "name": "Hwy. 7 & 12 @ Jack St.",
         "index": 832,
@@ -6613,14 +4989,6 @@
         "coords": [
             -78.9817657,
             44.0748444
-        ]
-    },
-    "00560": {
-        "name": "Hwy. 7 & 12 @ Scugog 10th Line",
-        "index": 834,
-        "coords": [
-            -79.0097122,
-            44.139286
         ]
     },
     "00559": {
@@ -6639,44 +5007,12 @@
             44.1485939
         ]
     },
-    "00554": {
-        "name": "Toronto St. @ Welwood Dr.",
-        "index": 837,
-        "coords": [
-            -79.1344528,
-            44.0885963
-        ]
-    },
-    "00553": {
-        "name": "Durham Hwy. 47 @ Goodwood Rd.",
-        "index": 838,
-        "coords": [
-            -79.2021637,
-            44.0338898
-        ]
-    },
-    "00543": {
-        "name": "King Ave. W. @ Rudell Rd.",
-        "index": 839,
-        "coords": [
-            -78.6007919,
-            43.9147644
-        ]
-    },
     "00541": {
         "name": "King St. W. @ Roenigk Dr.",
         "index": 840,
         "coords": [
             -78.6950607,
             43.9130325
-        ]
-    },
-    "00540": {
-        "name": "King St. W. @ Roenigk Dr.",
-        "index": 841,
-        "coords": [
-            -78.6950073,
-            43.9127769
         ]
     },
     "00539": {
@@ -6703,14 +5039,6 @@
             43.9125061
         ]
     },
-    "00535": {
-        "name": "King St. E. @ Mearns Ave.",
-        "index": 845,
-        "coords": [
-            -78.6707916,
-            43.9123039
-        ]
-    },
     "00534": {
         "name": "King St. W. @ Massey Dr.",
         "index": 846,
@@ -6719,28 +5047,12 @@
             43.9155502
         ]
     },
-    "00533": {
-        "name": "King St. W. @ Massey Dr.",
-        "index": 847,
-        "coords": [
-            -78.5977402,
-            43.9152832
-        ]
-    },
     "00530": {
         "name": "Durham Hwy. 2 @ Lambs Rd.",
         "index": 848,
         "coords": [
             -78.6584167,
             43.9112587
-        ]
-    },
-    "00529": {
-        "name": "Durham Hwy. 2 @ Lambs Rd.",
-        "index": 849,
-        "coords": [
-            -78.6594772,
-            43.9112358
         ]
     },
     "00526": {
@@ -6807,14 +5119,6 @@
             43.9125595
         ]
     },
-    "00510": {
-        "name": "Durham Hwy. 2 @ Bennett Rd.",
-        "index": 858,
-        "coords": [
-            -78.6490173,
-            43.9123993
-        ]
-    },
     "00509": {
         "name": "King Ave. E. @ Beaver St. N.",
         "index": 859,
@@ -6879,14 +5183,6 @@
             43.8738136
         ]
     },
-    "00451": {
-        "name": "Brock St. S. @ Trent St. E.",
-        "index": 867,
-        "coords": [
-            -78.939415,
-            43.8734322
-        ]
-    },
     "00449": {
         "name": "Brock St. @ Taunton Rd.",
         "index": 868,
@@ -6911,14 +5207,6 @@
             43.8978348
         ]
     },
-    "00446": {
-        "name": "Brock St. @ Rossland Rd.",
-        "index": 871,
-        "coords": [
-            -78.9493713,
-            43.8969574
-        ]
-    },
     "00445": {
         "name": "Brock St. @ Palmerston Ave.",
         "index": 872,
@@ -6933,22 +5221,6 @@
         "coords": [
             -78.94671,
             43.89042
-        ]
-    },
-    "00443": {
-        "name": "Brock St. @ Manning Rd.",
-        "index": 874,
-        "coords": [
-            -78.9465408,
-            43.890522
-        ]
-    },
-    "00441": {
-        "name": "Brock St. @ Manning Rd.",
-        "index": 875,
-        "coords": [
-            -78.9473114,
-            43.892067
         ]
     },
     "00437": {
@@ -6967,28 +5239,12 @@
             43.884964
         ]
     },
-    "00434": {
-        "name": "Brock St. @ Chestnut St.",
-        "index": 878,
-        "coords": [
-            -78.9442596,
-            43.8852234
-        ]
-    },
     "00433": {
         "name": "Brock St. @ Burns St.",
         "index": 879,
         "coords": [
             -78.9386063,
             43.8712997
-        ]
-    },
-    "00432": {
-        "name": "Brock St. @ Burns St.",
-        "index": 880,
-        "coords": [
-            -78.9382019,
-            43.8710518
         ]
     },
     "00429": {
@@ -7039,14 +5295,6 @@
             43.9352493
         ]
     },
-    "00414": {
-        "name": "Baldwin St. @ Robmar St.",
-        "index": 887,
-        "coords": [
-            -78.9613113,
-            43.9352798
-        ]
-    },
     "00413": {
         "name": "Baldwin St. @ Robert Attersley Dr.",
         "index": 888,
@@ -7055,28 +5303,12 @@
             43.9225807
         ]
     },
-    "00412": {
-        "name": "Baldwin St. @ Robert Attersley Dr.",
-        "index": 889,
-        "coords": [
-            -78.9600449,
-            43.9220695
-        ]
-    },
     "00411": {
         "name": "Baldwin St. @ Broadleaf Ave.",
         "index": 890,
         "coords": [
             -78.9583054,
             43.9181938
-        ]
-    },
-    "00410": {
-        "name": "Baldwin St. @ Broadleaf Ave.",
-        "index": 891,
-        "coords": [
-            -78.9588623,
-            43.9187431
         ]
     },
     "00409": {
@@ -7095,44 +5327,12 @@
             44.2536545
         ]
     },
-    "00407": {
-        "name": "Albert St. S. @ Hwy. 7 & 12",
-        "index": 894,
-        "coords": [
-            -79.0652847,
-            44.2531013
-        ]
-    },
     "00368": {
         "name": "Dundas St. @ Thickson Rd.",
         "index": 895,
         "coords": [
             -78.9140778,
             43.886425
-        ]
-    },
-    "00367": {
-        "name": "Kingston Rd. @ Westney Rd.",
-        "index": 896,
-        "coords": [
-            -79.04304,
-            43.85742
-        ]
-    },
-    "00365": {
-        "name": "Kingston Rd. @ Brock Rd.",
-        "index": 897,
-        "coords": [
-            -79.0733032,
-            43.8479996
-        ]
-    },
-    "00359": {
-        "name": "Allandale Waterfront GO",
-        "index": 898,
-        "coords": [
-            -79.689441,
-            44.373817
         ]
     },
     "00354": {
@@ -7175,14 +5375,6 @@
             43.8719444
         ]
     },
-    "00345": {
-        "name": "Barrie South GO Bus",
-        "index": 905,
-        "coords": [
-            -79.628335,
-            44.351771
-        ]
-    },
     "00344": {
         "name": "Kingston Rd. @ Church St.",
         "index": 906,
@@ -7191,28 +5383,12 @@
             43.8546715
         ]
     },
-    "00343": {
-        "name": "Kingston Rd. @ Church St.",
-        "index": 907,
-        "coords": [
-            -79.0567474,
-            43.8541832
-        ]
-    },
     "00342": {
         "name": "Dundas St. @ White Oaks Crt.",
         "index": 908,
         "coords": [
             -78.9636459,
             43.8749466
-        ]
-    },
-    "00340": {
-        "name": "Hwy. 50 @ Queen St. E.",
-        "index": 910,
-        "coords": [
-            -79.6489105,
-            43.7673454
         ]
     },
     "00339": {
@@ -7263,14 +5439,6 @@
             43.8938599
         ]
     },
-    "00331": {
-        "name": "Dundas St. @ Thickson Rd.",
-        "index": 917,
-        "coords": [
-            -78.9120483,
-            43.8865662
-        ]
-    },
     "00329": {
         "name": "Dundas St. @ Hopkins St.",
         "index": 918,
@@ -7295,52 +5463,12 @@
             43.8822479
         ]
     },
-    "00326": {
-        "name": "Dundas St. @ Garden St.",
-        "index": 921,
-        "coords": [
-            -78.9318085,
-            43.8823242
-        ]
-    },
-    "00325": {
-        "name": "Dundas St. @ White Oaks Crt.",
-        "index": 922,
-        "coords": [
-            -78.9639893,
-            43.8750877
-        ]
-    },
     "00323": {
         "name": "Kingston Rd. @ Harwood Ave.",
         "index": 923,
         "coords": [
             -79.0252075,
             43.8611984
-        ]
-    },
-    "00322": {
-        "name": "Kingston Rd. @ Harwood Ave.",
-        "index": 924,
-        "coords": [
-            -79.0265427,
-            43.8612671
-        ]
-    },
-    "00314": {
-        "name": "Kingston Rd. @ Glenanna Rd.",
-        "index": 925,
-        "coords": [
-            -79.087471,
-            43.8381004
-        ]
-    },
-    "00312": {
-        "name": "Kingston Rd. @ Fairport Rd.",
-        "index": 926,
-        "coords": [
-            -79.1067047,
-            43.8234673
         ]
     },
     "00310": {
@@ -7399,44 +5527,12 @@
             43.7634468
         ]
     },
-    "00297": {
-        "name": "Wellington St. E. @ Bayview Ave.",
-        "index": 934,
-        "coords": [
-            -79.4434891,
-            44.0053253
-        ]
-    },
-    "00296": {
-        "name": "Mount Pleasant GO Bus",
-        "index": 935,
-        "coords": [
-            -79.822181,
-            43.674976
-        ]
-    },
     "00292": {
         "name": "Bovaird Dr. W. @ Hurontario St.",
         "index": 936,
         "coords": [
             -79.7875595,
             43.705513
-        ]
-    },
-    "00264": {
-        "name": "Bronte GO Bus",
-        "index": 938,
-        "coords": [
-            -79.724009,
-            43.416275
-        ]
-    },
-    "00263": {
-        "name": "Appleby GO Bus",
-        "index": 939,
-        "coords": [
-            -79.760483,
-            43.379261
         ]
     },
     "00258": {
@@ -7455,28 +5551,12 @@
             43.930336
         ]
     },
-    "00255": {
-        "name": "Hwy. 10 @ Buena Vista Dr.",
-        "index": 942,
-        "coords": [
-            -80.0827255,
-            43.921978
-        ]
-    },
     "00254": {
         "name": "Hurontario St. @ Charleston Side Rd.",
         "index": 943,
         "coords": [
             -79.99617,
             43.8602753
-        ]
-    },
-    "00253": {
-        "name": "Hurontario St. @ Charleston Side Rd.",
-        "index": 944,
-        "coords": [
-            -79.9954758,
-            43.8601723
         ]
     },
     "00252": {
@@ -7487,28 +5567,12 @@
             43.7734947
         ]
     },
-    "00251": {
-        "name": "Hurontario St. @ King St.",
-        "index": 946,
-        "coords": [
-            -79.8780365,
-            43.7734184
-        ]
-    },
     "00250": {
         "name": "Hurontario St. @ Mayfield Rd.",
         "index": 947,
         "coords": [
             -79.8255081,
             43.7339287
-        ]
-    },
-    "00249": {
-        "name": "Hurontario St. @ Mayfield Rd.",
-        "index": 948,
-        "coords": [
-            -79.8244095,
-            43.7334137
         ]
     },
     "00242": {
@@ -7535,14 +5599,6 @@
             43.7153816
         ]
     },
-    "00237": {
-        "name": "Queen St. E. @ Dixie Rd.",
-        "index": 952,
-        "coords": [
-            -79.7290268,
-            43.7142944
-        ]
-    },
     "00231": {
         "name": "Trinity Common Mall",
         "index": 953,
@@ -7559,28 +5615,12 @@
             43.68031
         ]
     },
-    "00225": {
-        "name": "Bramalea Bus Terminal",
-        "index": 956,
-        "coords": [
-            -79.7205734,
-            43.7186356
-        ]
-    },
     "00223": {
         "name": "Shopper's World",
         "index": 957,
         "coords": [
             -79.7358246,
             43.6675682
-        ]
-    },
-    "00222": {
-        "name": "Shopper's World",
-        "index": 958,
-        "coords": [
-            -79.7354813,
-            43.6678429
         ]
     },
     "00221": {
@@ -7599,14 +5639,6 @@
             43.6859589
         ]
     },
-    "00216": {
-        "name": "Bovaird Dr. W. @ Chinguacousy Rd.",
-        "index": 961,
-        "coords": [
-            -79.8075638,
-            43.6868248
-        ]
-    },
     "00215": {
         "name": "Bovaird Dr. W. @ Mississauga Rd.",
         "index": 962,
@@ -7615,28 +5647,12 @@
             43.6660957
         ]
     },
-    "00214": {
-        "name": "Bovaird Dr. W. @ Mississauga Rd.",
-        "index": 963,
-        "coords": [
-            -79.830719,
-            43.665844
-        ]
-    },
     "00213": {
         "name": "Guelph St. @ King St.",
         "index": 964,
         "coords": [
             -79.8604736,
             43.6466408
-        ]
-    },
-    "00212": {
-        "name": "Guelph St. @ King St.",
-        "index": 965,
-        "coords": [
-            -79.8608932,
-            43.6464195
         ]
     },
     "00211": {
@@ -7671,14 +5687,6 @@
             43.6168976
         ]
     },
-    "00203": {
-        "name": "Alma St. @ Inkerman St.",
-        "index": 970,
-        "coords": [
-            -80.1464539,
-            43.6168633
-        ]
-    },
     "00201": {
         "name": "University of Guelph",
         "index": 971,
@@ -7711,14 +5719,6 @@
             43.5971031
         ]
     },
-    "00194": {
-        "name": "Milton GO Bus",
-        "index": 975,
-        "coords": [
-            -79.867178,
-            43.523803
-        ]
-    },
     "00191": {
         "name": "Aquitaine Ave. @ Meadowvale Town Centre Circle",
         "index": 976,
@@ -7735,30 +5735,6 @@
             43.5842514
         ]
     },
-    "00189": {
-        "name": "Erindale GO Bus",
-        "index": 978,
-        "coords": [
-            -79.667632,
-            43.567861
-        ]
-    },
-    "00181": {
-        "name": "Clarkson GO Bus",
-        "index": 980,
-        "coords": [
-            -79.633109,
-            43.512831
-        ]
-    },
-    "00180": {
-        "name": "Aldershot GO Bus",
-        "index": 981,
-        "coords": [
-            -79.855903,
-            43.313036
-        ]
-    },
     "00178": {
         "name": "King St. W. @ Dundurn St. N.",
         "index": 982,
@@ -7767,28 +5743,12 @@
             43.2622643
         ]
     },
-    "00177": {
-        "name": "Burlington GO",
-        "index": 983,
-        "coords": [
-            -79.8094994945172,
-            43.3404415392208
-        ]
-    },
     "00174": {
         "name": "Dundas St. @ Brock St.",
         "index": 984,
         "coords": [
             -78.9416351,
             43.8800888
-        ]
-    },
-    "00173": {
-        "name": "Dundas St. @ Brock St.",
-        "index": 985,
-        "coords": [
-            -78.9427185,
-            43.8796501
         ]
     },
     "00171": {
@@ -7815,36 +5775,12 @@
             43.898056
         ]
     },
-    "00161": {
-        "name": "Ajax GO Bus",
-        "index": 989,
-        "coords": [
-            -79.041084,
-            43.847547
-        ]
-    },
-    "00159": {
-        "name": "Oshawa GO",
-        "index": 990,
-        "coords": [
-            -78.88585,
-            43.870909
-        ]
-    },
     "00158": {
         "name": "King St. E. @ Liberty St.",
         "index": 991,
         "coords": [
             -78.6810532,
             43.9103699
-        ]
-    },
-    "00157": {
-        "name": "King St. E. @ Liberty St.",
-        "index": 992,
-        "coords": [
-            -78.6806183,
-            43.9107056
         ]
     },
     "00156": {
@@ -7855,14 +5791,6 @@
             43.8978195
         ]
     },
-    "00155": {
-        "name": "Bowmanville Ave. @ Baseline Rd.",
-        "index": 994,
-        "coords": [
-            -78.6905899,
-            43.8975792
-        ]
-    },
     "00153": {
         "name": "Ontario Tech University/Durham College",
         "index": 995,
@@ -7871,28 +5799,12 @@
             43.9433594
         ]
     },
-    "00147": {
-        "name": "Pickering GO Bus",
-        "index": 997,
+    "00141": {
+        "name": "Hamilton GO Centre Bus",
+        "index": 1000,
         "coords": [
-            -79.084571,
-            43.830982
-        ]
-    },
-    "00144": {
-        "name": "University of Toronto Scarborough",
-        "index": 998,
-        "coords": [
-            -79.1851273,
-            43.7843628
-        ]
-    },
-    "00142": {
-        "name": "Scarborough Centre Bus Terminal",
-        "index": 999,
-        "coords": [
-            -79.2563171,
-            43.7748413
+            -79.869586,
+            43.252945
         ]
     },
     "00139": {
@@ -7911,28 +5823,12 @@
             43.4457626
         ]
     },
-    "00137": {
-        "name": "Oakville GO Bus",
-        "index": 1003,
-        "coords": [
-            -79.681676,
-            43.455966
-        ]
-    },
     "00133": {
         "name": "Square One",
         "index": 1004,
         "coords": [
             -79.6474915,
             43.5946693
-        ]
-    },
-    "00132": {
-        "name": "Square One",
-        "index": 1005,
-        "coords": [
-            -79.6475983,
-            43.5945549
         ]
     },
     "00131": {
@@ -7943,14 +5839,6 @@
             43.8326988
         ]
     },
-    "00130": {
-        "name": "Langstaff Rd. E. @ Yonge St.",
-        "index": 1007,
-        "coords": [
-            -79.4272537,
-            43.8325882
-        ]
-    },
     "00127": {
         "name": "Bullock Dr. @ Austin Dr.",
         "index": 1010,
@@ -7959,28 +5847,12 @@
             43.8673248
         ]
     },
-    "00126": {
-        "name": "Bullock Dr. @ Austin Dr.",
-        "index": 1011,
-        "coords": [
-            -79.2930374,
-            43.8676033
-        ]
-    },
     "00125": {
         "name": "Bullock Drive @ McCowan Road (Centennial GO)",
         "index": 1012,
         "coords": [
             -79.28832,
             43.87161
-        ]
-    },
-    "00124": {
-        "name": "Bullock Drive @ McCowan Road (Centennial GO)",
-        "index": 1013,
-        "coords": [
-            -79.2881393,
-            43.8720551
         ]
     },
     "00123": {
@@ -7999,14 +5871,6 @@
             43.88255
         ]
     },
-    "00121": {
-        "name": "Mount Joy GO Bus",
-        "index": 1016,
-        "coords": [
-            -79.263649,
-            43.900455
-        ]
-    },
     "00118": {
         "name": "Main St. @ Edward St. (Stouffville GO)",
         "index": 1017,
@@ -8015,28 +5879,12 @@
             43.97041
         ]
     },
-    "00117": {
-        "name": "Main St. @ Edward St. (Stouffville GO)",
-        "index": 1018,
-        "coords": [
-            -79.2501831,
-            43.9706841
-        ]
-    },
     "00116": {
         "name": "Hwy. 47 @ Front St.",
         "index": 1019,
         "coords": [
             -79.1964798,
             44.0369034
-        ]
-    },
-    "00115": {
-        "name": "Hwy. 47 @ Front St.",
-        "index": 1020,
-        "coords": [
-            -79.1956329,
-            44.0375214
         ]
     },
     "00096": {
@@ -8055,22 +5903,6 @@
             44.3486099
         ]
     },
-    "00092": {
-        "name": "Yonge St. @ Mapleview Dr. E.",
-        "index": 1023,
-        "coords": [
-            -79.6270218,
-            44.3481598
-        ]
-    },
-    "00090": {
-        "name": "Yonge St. @ Victoria St.",
-        "index": 1024,
-        "coords": [
-            -79.6191483,
-            44.3241806
-        ]
-    },
     "00087": {
         "name": "Yonge St. @ Killarney Beach Rd.",
         "index": 1025,
@@ -8085,14 +5917,6 @@
         "coords": [
             -79.4899673,
             44.0952721
-        ]
-    },
-    "00081": {
-        "name": "Aurora GO Bus",
-        "index": 1027,
-        "coords": [
-            -79.459435,
-            43.999846
         ]
     },
     "00079": {
@@ -8111,28 +5935,12 @@
             43.7986336
         ]
     },
-    "00073": {
-        "name": "Yonge St. @ Steeles Ave. W.",
-        "index": 1030,
-        "coords": [
-            -79.4202805,
-            43.7982216
-        ]
-    },
     "00061": {
         "name": "Langstaff Rd. E. @ Cedar Ave. (Langstaff GO)",
         "index": 1032,
         "coords": [
             -79.42024,
             43.83663
-        ]
-    },
-    "00060": {
-        "name": "Langstaff Rd. E. @ Cedar Ave. (Langstaff GO)",
-        "index": 1033,
-        "coords": [
-            -79.420243,
-            43.836455
         ]
     },
     "00051": {
@@ -8199,22 +6007,6 @@
             44.2626152
         ]
     },
-    "00037": {
-        "name": "Hwy. 7 & 12 @ Cragg Rd.",
-        "index": 1042,
-        "coords": [
-            -79.0146027,
-            44.1518021
-        ]
-    },
-    "00036": {
-        "name": "Reach St. @ Old Simcoe Rd.",
-        "index": 1043,
-        "coords": [
-            -78.9576492,
-            44.1109772
-        ]
-    },
     "00035": {
         "name": "Curt St. @ Water St.",
         "index": 1044,
@@ -8239,28 +6031,12 @@
             43.9566841
         ]
     },
-    "00032": {
-        "name": "Brock St. @ Dundas St.",
-        "index": 1047,
-        "coords": [
-            -78.9420319,
-            43.8796806
-        ]
-    },
     "00030": {
         "name": "Keele St. @ Burton Grove (King City GO)",
         "index": 1049,
         "coords": [
             -79.5259781,
             43.9208336
-        ]
-    },
-    "00028": {
-        "name": "Rutherford GO Bus",
-        "index": 1050,
-        "coords": [
-            -79.498945,
-            43.838582
         ]
     },
     "00027": {
@@ -8327,44 +6103,12 @@
             43.8323288
         ]
     },
-    "00013": {
-        "name": "Finch Bus Terminal",
-        "index": 1059,
-        "coords": [
-            -79.4150925,
-            43.7821732
-        ]
-    },
     "00011": {
         "name": "York Mills Bus Terminal",
         "index": 1060,
         "coords": [
             -79.4064636,
             43.745079
-        ]
-    },
-    "00008": {
-        "name": "Yonge St. @ Sheppard Ave.",
-        "index": 1061,
-        "coords": [
-            -79.4111938,
-            43.7615967
-        ]
-    },
-    "00006": {
-        "name": "Yonge St. @ Hwy. 407",
-        "index": 1062,
-        "coords": [
-            -79.4283829,
-            43.8319817
-        ]
-    },
-    "00005": {
-        "name": "Yonge St. @ Baif Blvd. (Hillcrest Mall)",
-        "index": 1063,
-        "coords": [
-            -79.433876,
-            43.8557549
         ]
     }
 }

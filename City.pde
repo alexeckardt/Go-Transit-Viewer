@@ -2,6 +2,9 @@ public City hoveringCity = null;
 public City selectedCity = null;
 public ArrayList<City> cityList;
 
+public boolean drawCityNames = true;
+public boolean toggledDrawCityNames = false;
+
 public class City implements Feature {
   //
   public String name;
@@ -162,6 +165,10 @@ public void drawCities() {
 }
 
 public void drawCitiesName() {
+  if (!drawCityNames) {
+     return; 
+  }
+  
   for (int i = 0; i < cityList.size(); i++) {
     //Get
     City city = cityList.get(i);

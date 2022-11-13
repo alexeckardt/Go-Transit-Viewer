@@ -45,9 +45,6 @@ public class CityMaker extends FeatureMaker {
       City newcity = new City(name, coord);
       newcity.setPopulation(population, istown);
       newcity.geoCoords = new Vector2(cityJson.getJSONArray("coods"));
-    
-    
-      println(newcity.toString());
 
       //Store In Struct
       cityList.add(newcity);
@@ -134,6 +131,13 @@ public class RouteEdgeMaker extends FeatureMaker {
       BusStop stopA = busstops.get(Node1id);
       BusStop stopB = busstops.get(Node2id);
 
+      if (stopA == null) {
+         println(Node1id +" dne"); 
+      }
+      if (stopB == null) {
+         println(Node2id +" dne"); 
+      }
+
       //Create Route
       RouteEdge routeEdge = new RouteEdge(stopA, stopB, timeMinutes);
 
@@ -196,10 +200,11 @@ public class RouteMaker extends FeatureMaker {
 
         //Object
         String edgeLookingAt = edgesTravelArray.getString(j);
+        println(edgeLookingAt);
 
         //Get Edge
         RouteEdge edge = routeEdges.get(edgeLookingAt);
-
+        
         //Add Route Edge to Route
         newRoute.addEdge(edge);
 

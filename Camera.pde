@@ -7,7 +7,8 @@ public class Camera {
   float camScale = 1;
   int scaleIndex;
   Vector2 viewPortSize = new Vector2();
-  
+  final Vector2 drawPos = new Vector2(5, 5);
+
   //Other Positions
   Vector2 dragStartPosition;
 
@@ -18,10 +19,10 @@ public class Camera {
     //Center Camera Position at (0,0)
     pos = new Vector2();
     move(new Vector2(-139, 788));
-    
+
     //Decide Scales
     scaleIndex = 2; //index of scale 1
-    
+
     viewPortSize = get_viewport_dimentions();
   }
 
@@ -47,12 +48,12 @@ public class Camera {
     //Move Camera
     this.move(offsetPos);
   }
-  
+
   //
   void move_by_drag() {
     Vector2 diff = new Vector2(mouseX, mouseY).scale(1/camScale);
     diff = diff.subtract(dragStartPosition);
-  
+
     //
     pos = diff;
   }
@@ -91,7 +92,7 @@ public class Camera {
     // Move To Make Scoll Happen from Mouse, Not 0,0 on screen
     Vector2 diff = updatedMouseCoords.subtract(scrollFromCoords);
     this.pos = pos.add(diff);
-    
+
     //Update
     this.viewPortSize = baseCamDimentions.scale(1/this.camScale);
   }
@@ -119,14 +120,14 @@ public class Camera {
     textAlign(LEFT, TOP);
     fill(#ffffff);
     textSize(fontSize);
-    
+
+    int line = 0;
+
     //
     Vector2 mpos = mouse_gui_to_real_coords();
-    text(mpos.toString(), 5, 155);
-    text(this.pos.toString(), 5, 165);
-    text(this.camScale, 5, 175);
-    text(this.viewPortSize.toString(), 5, 185);
-    
-    
+    text(mpos.toString(), drawPos.x, drawPos.y + (line++)*fontSize);
+    text(this.pos.toString(), drawPos.x, drawPos.y + (line++)*fontSize);
+    text(this.camScale, drawPos.x, drawPos.y + (line++)*fontSize);
+    text(this.viewPortSize.toString(), drawPos.x, drawPos.y + (line++)*fontSize);
   }
 }
